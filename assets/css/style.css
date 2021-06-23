@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #8c8c8c;
+  color: #1b76d1;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
   color: #fff;
 }
 
@@ -991,8 +991,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #8c8c8c;
-  border-color: #8c8c8c;
+  background: #1b76d1;
+  border-color: #1b76d1;
 }
 
 .pricing .recommended-badge {
@@ -1035,7 +1035,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #8c8c8c;
+  color: #1b76d1;
   transition: 0.3s;
 }
 
@@ -1227,7 +1227,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #8c8c8c;
+  background: #1b76d1;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1296,7 +1296,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1443,7 +1443,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
 }
 
 .blog .entry .entry-content h3 {
@@ -1771,7 +1771,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
 }
 
 .blog .sidebar .categories ul {
@@ -1920,7 +1920,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #8c8c8c;
+  color: #1b76d1;
   font-size: 18px;
   line-height: 1;
 }
@@ -1992,7 +1992,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
 }
 
 #footer .credits {
@@ -2017,7 +2017,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #8c8c8c;
+  background: #1b76d1;
   color: #fff;
   text-decoration: none;
 }
