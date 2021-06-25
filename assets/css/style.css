@@ -1101,6 +1101,15 @@ section {
   overflow: hidden;
 }
 
+/* added for profile picture positioning */
+.team .member .prof-pic {
+  position: absolute;
+  width: 320px;
+  height: 100px;
+  top: 60px;
+  right: 100px;
+}
+
 .team .member .social {
   position: absolute;
   left: 0;
