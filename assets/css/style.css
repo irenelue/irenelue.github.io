@@ -33,6 +33,72 @@ h6 {
 	font-family: "Nunito", sans-serif;
 }
 
+/*------------------------------s--------------------------------
+# consistent button for github 
+--------------------------------------------------------------*/
+.consistent-buttonL {
+	position: fixed;
+	visibility: visible;
+	opacity: 0;
+	right: 105px;
+	bottom: 15px;
+	z-index: 996;
+	background: #1563b1;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.consistent-buttonL i {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 0;
+}
+
+.consistent-buttonL:hover {
+	background: #1b76d1;
+	color: #fff;
+}
+
+.consistent-buttonL.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*------------------------------s--------------------------------
+# consistent button for github 
+--------------------------------------------------------------*/
+.consistent-button {
+	position: fixed;
+	visibility: visible;
+	opacity: 0;
+	right: 60px;
+	bottom: 15px;
+	z-index: 996;
+	background: #1563b1;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.consistent-button i {
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	line-height: 0;
+}
+
+.consistent-button:hover {
+	background: #1b76d1;
+	color: #fff;
+}
+
+.consistent-button.active {
+	visibility: visible;
+	opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -44,8 +110,8 @@ h6 {
 	bottom: 15px;
 	z-index: 996;
 	background: #1563b1;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	border-radius: 50px;
 	transition: all 0.4s;
 }

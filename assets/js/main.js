@@ -110,6 +110,38 @@
     onscroll(document, toggleBacktotop)
   }
 
+  /** 
+   * ADDED: consistent button github
+   */
+   let consistentbutton = select('.consistent-button')
+   if (consistentbutton) {
+     const toggleBacktotop = () => {
+       if (window.scrollY > 100) {
+        consistentbutton.classList.add('active')
+       } else {
+        consistentbutton.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', toggleBacktotop)
+     onscroll(document, toggleBacktotop)
+   }
+
+  /** 
+   * ADDED: consistent button linkedin
+   */
+      let consistentbuttonL = select('.consistent-buttonL')
+      if (consistentbuttonL) {
+        const toggleBacktotop = () => {
+          if (window.scrollY > 100) {
+            consistentbuttonL.classList.add('active')
+          } else {
+            consistentbuttonL.classList.remove('active')
+          }
+        }
+        window.addEventListener('load', toggleBacktotop)
+        onscroll(document, toggleBacktotop)
+      }
+
   /**
    * Mobile nav toggle
    */
