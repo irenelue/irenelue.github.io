@@ -15,12 +15,12 @@ body {
 }
 
 a {
-	color: #1563b1;
+	color: #1563b1; /*before: #1563b1;*/ 
 	text-decoration: none;
 }
 
 a:hover {
-	color: #1b76d1;
+	color: #000000; /*before: #1b76d1*/
 	text-decoration: none;
 }
 
@@ -430,7 +430,7 @@ h6 {
 
 #hero:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.123);
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -445,10 +445,11 @@ h6 {
 	left: 0;
 	right: 0;
 	display: flex;
+	/* margin-left: 180px; added this to move header to left */
 	justify-content: center;
-	align-items: center;
+	align-items: center; /* before: left*/
 	flex-direction: column;
-	text-align: center;
+	text-align: center; /* before: left*/
 	padding: 0 15px;
 }
 
@@ -463,7 +464,7 @@ h6 {
 
 #hero h1 {
 	margin: 0 0 10px 0;
-	font-size: 48px;
+	font-size: 68px;
 	font-weight: 700;
 	line-height: 100px;
 	text-transform: none;
@@ -534,9 +535,14 @@ section {
 	background-color: white;
 }
 
+.section-contact {
+	text-align: center;
+	padding-bottom: 0px;
+}
+
 .section-title {
 	text-align: center;
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
 
 .section-title h2 {
