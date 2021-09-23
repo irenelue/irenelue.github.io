@@ -142,6 +142,22 @@
         onscroll(document, toggleBacktotop)
       }
 
+  /** 
+   * ADDED: consistent button dribbble
+   */
+         let consistentbuttonD = select('.consistent-buttonD')
+         if (consistentbuttonD) {
+           const toggleBacktotop = () => {
+             if (window.scrollY > 100) {
+              consistentbuttonD.classList.add('active')
+             } else {
+              consistentbuttonD.classList.remove('active')
+             }
+           }
+           window.addEventListener('load', toggleBacktotop)
+           onscroll(document, toggleBacktotop)
+         }
+
   /**
    * Mobile nav toggle
    */
