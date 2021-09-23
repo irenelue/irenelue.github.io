@@ -508,6 +508,7 @@ h6 {
 #hero h1 {
 	font-family: "Nunito", sans-serif;
 	margin: 0 0 10px 0;
+	margin-bottom: 30px;
 	font-size: 68px;
 	font-weight: 600;
 	line-height: 110px;
@@ -926,14 +927,14 @@ section {
 	position: absolute;
 	right: 50px;
 	font-size: 24px;
-	top: calc(50% - 18px);
+	top: calc(50% - 40px); /*before: 50% - 18px */ 
 	color: white;
 	transition: ease-in-out 0.3s;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-	color: #000000; /*before: #bdace9*/
+	color: #ffffff; /*before: #bdace9*/
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
