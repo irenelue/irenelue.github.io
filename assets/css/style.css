@@ -1504,9 +1504,7 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-	padding: 40px 0 20px 0;
-	margin-left: auto;
-	margin-right: -400px;
+	padding: 40px 0 20px 0px;
 }
 
 .blog .entry {
@@ -1519,6 +1517,26 @@ section {
 	max-height: 440px;
 	margin: -30px -30px 20px -30px;
 	overflow: hidden;
+}
+
+/* added for top of blog post title */
+.blog .entry .entry-heada {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 15px 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.blog .entry .entry-heada2 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 50px 0;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .blog .entry .entry-title {
@@ -1534,12 +1552,12 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-	color: #1563b1;
+	color: #000000;
 }
 
 .blog .entry .entry-meta {
 	margin-bottom: 15px;
-	color: #b1a0a3;
+	color: #1973cc;
 }
 
 .blog .entry .entry-meta ul {
@@ -1562,7 +1580,7 @@ section {
 }
 
 .blog .entry .entry-meta a {
-	color: #777777;
+	color: #1973cc;
 	font-size: 14px;
 	display: inline-block;
 	line-height: 1;
@@ -1570,7 +1588,7 @@ section {
 
 .blog .entry .entry-content p {
 	line-height: 24px;
-	font-size: 18px; /* originally 16px*/
+	font-size: 16px; /* originally 16px*/
 }
 
 .blog .entry .entry-content .read-more {
