@@ -1521,16 +1521,17 @@ section {
 
 /* added for top of blog post title */
 .blog .entry .entry-heada {
-	text-align: center;
-	font-size: 35px;
+	text-align: left;
+	font-size: 40px;
 	font-weight: bold;
 	padding: 0;
-	margin: 0 0 15px 0;
+	margin: 0 0 10px 0;
 	font-family: "Times New Roman", Times, serif;
 }
 
 .blog .entry .entry-heada2 {
-	text-align: center;
+	text-align: left;
+	line-height: 23px;
 	font-size: 15px;
 	font-weight: bold;
 	padding: 0;
@@ -1587,8 +1588,8 @@ section {
 }
 
 .blog .entry .entry-content p {
-	line-height: 24px;
-	font-size: 16px; /* originally 16px*/
+	line-height: 35px;
+	font-size: 18px; /* originally 16px*/
 }
 
 .blog .entry .entry-content .read-more {
