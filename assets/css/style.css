@@ -1237,11 +1237,12 @@ section {
 
 /* added for profile picture positioning */
 .team .member .prof-pic {
-	position: absolute;
+	float: left;
 	width: 320px;
-	height: 100px;
+	height: auto;
 	top: 60px;
 	right: 100px;
+	max-width: 100%;
 }
 
 .team .member .social {
