@@ -876,7 +876,7 @@ section {
 	line-height: 1;
 	color: #444444;
 	margin: 0 3px 10px 3px;
-	transition: all ease-in-out 0.3s;
+	/* transition: all ease-in-out 0.3s; */
 	background: #ede9e9;
 	border-radius: 50px;
 }
@@ -903,7 +903,7 @@ section {
 	margin-right: auto;
 	position: relative;
 	top: 0;
-	transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); /* hover transition */
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -913,7 +913,7 @@ section {
 	right: 15px;
 	bottom: -50px;
 	z-index: 3;
-	transition: all ease-in-out 0.3s;
+	/* transition: all ease-in-out 0.3s; */
 	background: #000000b7;
 	padding: 15px 20px;
 }
@@ -949,8 +949,10 @@ section {
 	right: 15px;
 }
 
+/* this is for any effects when hovering over portfolio img */
 .portfolio .portfolio-item:hover img {
-	top: -30px;
+	/* top: -30px; */
+	opacity: 0.9;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1553,7 +1555,7 @@ section {
 
 .blog .entry .entry-title a {
 	color: #493c3e;
-	transition: 0.3s;
+	/* transition: 0.3s; */
 }
 
 .blog .entry .entry-title a:hover {
@@ -1606,7 +1608,7 @@ section {
 	background: #1563b1;
 	color: #fff;
 	padding: 6px 20px;
-	transition: 0.3s;
+	/* transition: 0.3s; */
 	font-size: 14px;
 	border-radius: 4px;
 }
