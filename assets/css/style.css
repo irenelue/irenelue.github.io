@@ -26,12 +26,12 @@ a:hover {
 }
 
 a.class1 {
-	color: #000000; /* before: 1973cc // beforebefore: #1563b1;*/
+	color: #1973cc; /* before: 1973cc // beforebefore: #1563b1;*/
 	text-decoration: none;
 }
 
 a.class1:hover {
-	color: #444444; /* before: 000000 // beforebefore: #1563b1;*/
+	color: #000000; /* before: 000000 // beforebefore: #1563b1;*/
 	text-decoration: none;
 }
 
@@ -206,7 +206,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-	background: rgba(0, 0, 0, 0.9); /* for that weird bar at the top*/
+	background: rgba(0, 0, 0, 0.8); /* for that weird bar at the top*/
 	padding: 12px 0;
 }
 
@@ -267,7 +267,7 @@ h6 {
 	height: 2px;
 	bottom: -6px;
 	left: 0;
-	background-color: #b1cbdb;
+	background-color: #ffffff; /* before: */
 	visibility: hidden;
 	transform: scaleX(0);
 	transition: all 0.3s ease-in-out 0s;
