@@ -204,9 +204,11 @@ h6 {
 	max-height: 40px;
 }
 
+/* for that weird bar at the top*/
 #header.header-scrolled,
 #header.header-inner-pages {
-	background: rgba(0, 0, 0, 0.8); /* for that weird bar at the top*/
+	background: rgba(57, 79, 121, 0.322);
+	/* background: #1973cc46; */
 	padding: 12px 0;
 }
 
@@ -484,6 +486,24 @@ h6 {
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+#hero .logo {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: None;
+}
+
+#hero .logo a {
+	color: #fff;
+}
+
+#hero .logo img {
+	max-height: 40px;
 }
 
 #hero .hero-container {
