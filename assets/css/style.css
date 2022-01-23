@@ -9,14 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-	/* font-family: "Open Sans", sans-serif; */
-	/* font-family: "Roboto"; */
 	font-family: "Inter", sans-serif;
 	color: #000000;
 }
 
 a {
-	color: #ffffff; /*before: #1563b1;*/
+	color: #000000; /*before: #1563b1;*/
 	text-decoration: none;
 }
 
@@ -41,7 +39,6 @@ h3,
 h4,
 h5,
 h6 {
-	/* font-family: "Nunito", sans-serif; */
 	font-family: "Inter", sans-serif;
 }
 
@@ -70,7 +67,7 @@ h6 {
 
 .consistent-buttonD:hover {
 	background: #000000;
-	color: #fff;
+	color: rgb(104, 20, 20);
 }
 
 .consistent-buttonD.active {
@@ -163,13 +160,13 @@ h6 {
 
 .back-to-top i {
 	font-size: 28px;
-	color: #fff;
+	color: #fff; /* the white arrow inside blue circle */
 	line-height: 0;
 }
 
 .back-to-top:hover {
 	background: #000000;
-	color: #fff;
+	color: rgb(156, 34, 34);
 }
 
 .back-to-top.active {
@@ -1521,7 +1518,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
 	padding: 15px 0;
-	background: #f6f4f4;
+	background: #ffffff; /* #f6f4f4;   // light grey */
 	margin-top: 67px;
 }
 

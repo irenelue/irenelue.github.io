@@ -14,8 +14,16 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,
+      400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|
+      Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,
+      400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,600,600i,700,700i|
+      Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@450&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +50,7 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="index.html"> Irene Lue </a></h1>
@@ -51,161 +59,117 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Work</a></li>
-          <li><a class="nav-link scrollto " href="#about">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="/#portfolio">Work</a></li>
+          <li><a class="nav-link scrollto active" href="/#about">About</a></li>
           <li><a href="https://drive.google.com/file/d/153o6HQZxTyskVU8ruE8fxNL2DZmSKU9_/view?usp=sharing" target="_blank">Resume</a></li>
-        </ul>
+        </ul> 
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav> <!-- .navbar -->
 
-    <!-- </div> -->
+    </div>
   </header><!-- End Header -->
 
-  
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <!-- <h3>Welcome to <strong>Tempo</strong></h3> -->
-      <h1> Hi, I'm Irene! </h1>
-      <!-- <h2> Recent Computer Science graduate from UC San Diego based in LA. </h2> -->
-      <h2> I'm a recent Computer Science graduate from UC San Diego <br> <br> with a fascination for simple and empowering design. <br> <br> </h2>
-      <!-- <i><a href="//24timezones.com/Los-Angeles/time" style="text-decoration: none;" class="clock24" id="tz24-1624350208-c1137-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIwIiwic2hvd3NlY29uZHMiOiIxIiwic2hvd3RpbWV6b25lIjoiMSIsInR5cGUiOiJkIiwibGFuZyI6ImVuIn0=" title="Los Angeles time zone" target="_blank" rel="nofollow"> Time in Los Angeles</a> -->
-      </i><script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
-      <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
-    </div>
-  </section><!-- End Hero -->
-
   <main id="main">
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
-        <div class="section-title">
-          <!-- <h2>Portfolio</h2> -->
-          <!-- <h3>Check Out <span> My Portfolio</span></h3> -->
-          <!-- <h3> What I've been working on <br> </h3> -->
-          <!-- <h3>Featured Projects</h3> -->
-          <!-- <p style="font-size:105%"> My featured works and projects </p> --> 
-        </div>
+        <!-- <ol>
+          <li><a href="index.html" class="class1">Home</a></li>
+          <li>COVID-Code</li>
+          <!-- add on RHS corner: Read Next: ...
+        </ol> -->
+        <!-- <h2>Portfolio Details</h2> -->
 
-        <div class="row portfolio-container">
-          <!-- Proj 1: Covid-Code -->
-          <div class="col-md-6 col-md-6 portfolio-item filter-finance" class="img-fluid">
-            <a href="portfolio-details.html" target="blank" title="Case Study: COVID-Code">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            </a>
-            <div class="img-with-text"> 
-              <p> COVID-Code </p>
-            </div>
-          </div>
-
-          <!-- 09/22/21 - IRENE, UNCOMMENT THE BLOCK BELOW FOR 3RD CASE STUDY -->
-          <!-- Games -->
-          <div class="col-lg-6 col-md-6 portfolio-item filter-games">
-            <a href="portfolio-details2.html" target="blank" title="Case Study: Project 2">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            </a>
-            <div class="img-with-text"> 
-              <p> Project 2 </p>
-            </div>
       </div>
-    </section> <!-- End Portfolio Section -->
+    </section> <!-- End Breadcrumbs -->
 
     <!-- ======= About Section ======= -->
     <!-- <section id="team" class="team"> -->
-      <section id="about" class="about">  
-        <div class="container">
-          <div class="section-title">
-            <!-- <h2> About </h2> -->
-            <!-- <h3> About <span> Irene </span> </h3> -->
-            <h3> About Irene </h3>
-            <p>  </p> 
-          </div>
-          <div class="row content">
-            <div class="col-lg-6">
-              <!-- added profile picture -->
-              <div class="container-fluid">
-              <div class="row-fluid">
-  
-                <!-- team-0 profile picture -->
-                <div class="col-lg-9 col-md-8 mx-auto">
-                 <!-- team-00 profile picture -->
-                 <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch"> -->
-                  <div class="member">
-                    <div class="member-img text-center">
-                      <img id="prof-pic" src="assets/img/team/team-00.jpg" class="img-fluid" alt=""> 
-                                                                       <!-- class="img-fluid rounded-circle" -->
+        <section id="about" class="about">  
+            <div class="container">
+              
+              <div class="section-title">
+                <!-- <h2> About </h2> -->
+                <!-- <h3> About <span> Irene </span> </h3> -->
+                <!-- <h3> About Irene </h3> -->
+                <p>  </p> 
+              </div>
+              
+              <div class="row content">
+                <div class="col-lg-6">
+                  <!-- added profile picture -->
+                  <div class="container-fluid">
+                    <div class="row-fluid">
+                      <!-- team-0 profile picture -->
+                      <div class="col-lg-9 col-md-8 mx-auto">
+                        <!-- team-00 profile picture -->
+                        <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch"> -->
+                        <div class="member">
+                          <div class="member-img text-center">             <!-- class="img-fluid rounded-circle" --> 
+                            <img id="prof-pic" src="assets/img/team/team-00.jpg" class="img-fluid" alt=""> 
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                </div> 
+      
+                <div class="col-lg-6 pt-4 pt-lg-0 mx-auto">
+                  <p style="font-size:100%">
+                    Hi, I'm Irene! <br>
+                    <br>
+                    If you'd like to work together or have any questions, let's get in 
+                    touch and I'll get back to you as soon as I can!
+                  </p>
                 </div>
+    
               </div>
             </div>
-           </div> 
+          </section> <!-- End About Section -->
+        </section> <!-- End Contact Section -->
+  </main> <!-- End #main -->
   
-           <div class="col-lg-6 pt-4 pt-lg-0 mx-auto">
-              <p style="font-size:100%">
-                Hi, I'm Irene! <br>
-                <br>
-                If you'd like to work together or have any questions, let's get in 
-                touch and I'll get back to you as soon as I can!
-              </p>
-              
-            </div>
-          </div>
-        </div>
-      </section> <!-- End About Section -->
-    </section> <!-- End Contact Section -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-  </main><!-- End #main -->
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-
-
-      <div class="me-md-auto text-center text-md-start">
-        <!-- <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div> -->
+  <div class="container d-md-flex py-4">
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
       </div>
+  </div>
 
-      <div class="section-contact">
-        <div class="me-md-auto text-center">
-          <div class="email">
-            <a href="mailto: irenelue01@gmail.com" class="class1" target="_blank" title="Email"><i class="fas fa-paper-plane" ></i></a>
-            <a href="https://www.linkedin.com/in/irenelue/" class="class1" target="_blank" class="linkedin" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/irenelue" class="class1" target="_blank" class="github" title="GitHub"><i class="bi bi-github"></i></a>
-            <a href="https://dribbble.com/irenelue/collections" class="class1" target="_blank" title="Dribbble"><i class="fas fa-basketball-ball"></i></a>
-            <!-- <a href="https://medium.com/@irenelue" class="class1" target="_blank" title="Medium"><i class="fab fa-medium-m" ></i></a> -->
-          </div>
-        </div>
+  <div class="section-contact-port">
+    <div class="me-md-auto text-center">
+      <div class="email">
+        <a href="mailto: irenelue01@gmail.com" class="class1" target="_blank" title="Email"><i class="fas fa-paper-plane" ></i></a>
+        <a href="https://www.linkedin.com/in/irenelue/" class="class1" target="_blank" class="linkedin" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/irenelue" class="class1" target="_blank" class="github" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://dribbble.com/irenelue/collections" class="class1" target="_blank" title="Dribbble"><i class="fas fa-basketball-ball"></i></a>
+        <!-- <a href="https://medium.com/@irenelue" class="class1" target="_blank" title="Medium"><i class="fab fa-medium-m" ></i></a> -->
       </div>
-
-      <div class="me-md-auto text-center">
-        <div class="copyright">
-          <strong><span> </span></strong> &copy; <strong><span> Irene Lue 2022 </span></strong> 
-        </div>
-      </div>
-      
     </div>
-  </footer><!-- End Footer -->
+  </div>
 
-  <!-- consistent buttons scrolling throughout pages -->
-  <!-- <a href="https://www.linkedin.com/in/irenelue/" target="_blank" class="consistent-buttonD d-flex align-items-center justify-content-center" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
-  <!-- <a href="https://github.com/irenelue" target="_blank" class="consistent-buttonL d-flex align-items-center justify-content-center" title="GitHub"><i class="bi bi-github"></i></a> -->
-  <!-- <a href="https://dribbble.com/irenelue/collections" target="_blank" class="consistent-button d-flex align-items-center justify-content-center"><i class="fas fa-basketball-ball"></i></a> -->
-<!--   <a href="https://medium.com/@irenelue" target="_blank"><i class="fab fa-medium-m" ></i></a> -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" title="Back to top"><i class="bi bi-arrow-up-short"></i></a>
+  <div class="me-md-auto text-center">
+    <div class="copyright">
+      <strong><span> </span></strong> &copy; <strong><span> Irene Lue 2022 </span></strong> 
+    </div>
+  </div>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center" title="Back to top"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
