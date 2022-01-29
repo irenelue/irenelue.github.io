@@ -958,11 +958,12 @@ section {
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
+	transition: 0.2s;
 }
 
 .portfolio .image_overlay > * {
-	transform: translateY(8px);
-	transition: transform 0.3s;
+	/* 	transform: translateY(8px);
+	transition: transform 0.3s; */
 }
 
 .portfolio .image_overlay:hover {
@@ -974,15 +975,16 @@ section {
 }
 
 .portfolio .image_title {
-	font-size: 1.5em;
+	font-size: 22px;
 	font-weight: bold;
 	color: #ffffff;
 	margin-top: 25px;
 }
 
 .portfolio .image_description {
-	font-size: 1em;
+	font-size: 15px;
 	color: #ffffffb2;
+	margin-top: 5px;
 }
 
 /* end */
