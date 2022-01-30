@@ -628,8 +628,9 @@ section {
 }
 
 .section-title {
-	text-align: center;
-	padding-bottom: 30px;
+	margin-bottom: 50px;
+	text-align: left;
+	font-size: 40px;
 }
 
 .section-title h2 {
@@ -680,6 +681,26 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-title {
+	font-family: "Inter", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	color: #1563b1;
+}
+
+.about-paragraph {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Inter", sans-serif;
+	width: 100%;
+	font-size: 16px;
+}
+
 .about .content h3 {
 	font-weight: 600;
 	font-size: 26px;
@@ -1329,15 +1350,20 @@ section {
 .team .member {
 	margin-bottom: 20px;
 	overflow: hidden;
-	text-align: center;
+	/* text-align: center; */
 	border-radius: 5px;
 	background: #fff;
-	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.795);
+	max-width: 100%;
+	height: auto;
+	width: 100%;
 }
 
-.team .member .member-img {
-	position: relative;
-	overflow: hidden;
+.team .member-img {
+	/*before: .team .member .member-img */
+	max-width: 50vw;
+	height: auto;
+	width: 100%;
 }
 
 /* added for profile picture positioning */
