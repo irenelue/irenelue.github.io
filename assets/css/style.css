@@ -24,13 +24,15 @@ a:hover {
 }
 
 a.class1 {
-	color: #1973cc; /* before: 1973cc // beforebefore: #1563b1;*/
+	/* twitter, instagram, linkedin links at bottom */
+	color: #0000001f; /* before: 1973cc // beforebefore: #1563b1;*/
 	text-decoration: none;
 }
 
 a.class1:hover {
-	color: #000000; /* before: 000000 // beforebefore: #1563b1;*/
+	color: #00000036; /* before: 000000 // beforebefore: #1563b1;*/
 	text-decoration: none;
+	transition: 0.2s;
 }
 
 h1,
@@ -204,9 +206,8 @@ h6 {
 /* for that weird bar at the top*/
 #header.header-scrolled,
 #header.header-inner-pages {
-	background: rgba(57, 79, 121, 0.452);
-	/* background: #1973cc46; 
-	background: rgba(57, 79, 121, 0.322); */
+	/* before: background: rgba(57, 79, 121, 0.452); */
+	background: #00000036;
 	padding: 12px 0;
 }
 
@@ -622,9 +623,9 @@ section {
 	padding-top: 0px;
 	margin: 0px 0px 0px 0px;
 	margin-top: -20px;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	top: 50%;
 	left: 50%;
 }
@@ -690,7 +691,7 @@ section {
 }
 .about-title {
 	font-family: "Inter", sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 25px;
 	margin-left: auto;
