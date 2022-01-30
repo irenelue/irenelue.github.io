@@ -621,8 +621,10 @@ section {
 	padding-bottom: 10px;
 	padding-top: 0px;
 	margin: 0px 0px 0px 0px;
-	font-size: 25px;
+	margin-top: -20px;
+	font-size: 22px;
 	font-weight: 600;
+	letter-spacing: 1px;
 	top: 50%;
 	left: 50%;
 }
@@ -681,11 +683,26 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
 .about-title {
 	font-family: "Inter", sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
-	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	color: #1563b1;
+}
+
+.about-subtitle {
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
 	margin-bottom: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -694,11 +711,19 @@ section {
 }
 
 .about-paragraph {
+	font-family: "Inter", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Inter", sans-serif;
 	width: 100%;
 	font-size: 16px;
+	line-height: 200%;
+}
+
+.about-link {
+	font-size: 13px;
+	margin-top: 20px;
+	color: #838383;
 }
 
 .about .content h3 {
