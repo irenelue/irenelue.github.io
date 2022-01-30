@@ -25,12 +25,12 @@ a:hover {
 
 a.class1 {
 	/* twitter, instagram, linkedin links at bottom */
-	color: #0000001f; /* before: 1973cc // beforebefore: #1563b1;*/
+	color: #00000048; /* before: 1973cc // beforebefore: #1563b1;*/
 	text-decoration: none;
 }
 
 a.class1:hover {
-	color: #00000036; /* before: 000000 // beforebefore: #1563b1;*/
+	color: #0000002a; /* before: 000000 // beforebefore: #1563b1;*/
 	text-decoration: none;
 	transition: 0.2s;
 }
