@@ -9,30 +9,31 @@
 # General
 --------------------------------------------------------------*/
 body {
-	font-family: "Inter", sans-serif;
-	color: #000000;
+	font-family: "Mukta", sans-serif;
+	color: #444444;
 }
 
 a {
-	color: #000000; /*before: #1563b1;*/
+	color: #444444; /*before: #1563b1;*/
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000000; /*before: #1b76d1*/
+	color: #444444; /*before: #1b76d1*/
 	text-decoration: none;
 }
 
 a.class1 {
 	/* twitter, instagram, linkedin links at bottom */
-	color: #00000048; /* before: 1973cc // beforebefore: #1563b1;*/
+	color: #4e4e4e; /* before: 1973cc // beforebefore: #1563b1;*/
 	text-decoration: none;
+	letter-spacing: 2px;
 }
 
 a.class1:hover {
-	color: #0000002a; /* before: 000000 // beforebefore: #1563b1;*/
+	color: rgb(175, 175, 175); /* before: 000000 // beforebefore: #1563b1;*/
 	text-decoration: none;
-	transition: 0.2s;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 h1,
@@ -41,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Inter", sans-serif;
+	font-family: "Mukta", sans-serif;
 }
 
 /*------------------------------s--------------------------------
@@ -197,7 +198,7 @@ h6 {
 }
 
 #header .logo a {
-	color: rgb(44, 44, 44); /* Irene Lue logo */
+	color: #444444; /* Irene Lue logo */
 }
 
 #header .logo img {
@@ -246,7 +247,7 @@ h6 {
 	justify-content: space-between;
 	/* Home, Work, About links */
 	font-family: "Mukta", sans-serif;
-	color: rgb(44, 44, 44);
+	color: #444444;
 	font-size: 16px;
 	padding: 0 4px;
 	white-space: nowrap;
@@ -291,7 +292,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-	color: rgb(170, 170, 170); /* Home Work About WORD hover*/
+	color: rgb(175, 175, 175); /* Home Work About WORD hover*/
 }
 
 .navbar .dropdown ul {
@@ -480,9 +481,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
 	width: 100%;
-	height: 100vh;
+	height: 40vh;
 	/* this is to add a gradient or darker opacity to background image */
-	background: linear-gradient(rgba(0.02, 2, 2, 0.3), rgba(0, 0, 0, 0)),
+	background: linear-gradient(rgba(77, 189, 189, 0), rgba(0, 0, 0, 0)),
 		url("../img/hero-bg.jpg") top center;
 	background-size: cover;
 	position: relative;
@@ -490,7 +491,7 @@ h6 {
 
 #hero:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.062);
+	background: rgb(255, 255, 255);
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -540,25 +541,27 @@ h6 {
 	border-radius: 50px;
 }
 
+/* home page title 1 */
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
-	font-family: "Merriweather", serif; /* home page title font */
+	font-family: "Merriweather", serif;
 	margin: 0 0 10px 0;
+	margin-top: 170px;
 	margin-bottom: 20px;
-	font-size: 50px;
-	font-weight: 350;
+	font-size: 40px;
+	font-weight: 500;
 	line-height: 45px;
 	letter-spacing: 2px;
 	text-transform: none;
-	color: rgb(44, 44, 44);
+	color: #1563b1;
 }
 
 #hero h2 {
 	font-family: "Mukta", serif; /* home page description font */
-	color: rgb(85, 85, 85);
+	color: rgb(119, 119, 119);
 	line-height: 35px;
 	margin: 0 0 10px 0;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	font-size: 20px;
 	font-weight: lighter;
 }
@@ -959,6 +962,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio #port-container {
+	margin-bottom: 400px;
+}
+
 .portfolio #portfolio-flters {
 	padding: 0;
 	margin: 0 auto 25px auto;
@@ -2283,7 +2290,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-	color: #777777;
+	color: #d30606;
 	transition: 0.3s;
 	display: inline-block;
 	line-height: 1;
