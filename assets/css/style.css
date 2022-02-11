@@ -181,7 +181,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	transition: all 1.4s;
+	/* transition: all 0.5s; */
 	z-index: 997;
 	padding: 20px 0;
 }
@@ -209,7 +209,7 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
 	/* before: background: rgba(57, 79, 121, 0.452); */
-	background: #00000000;
+	background: #ffffff;
 	padding: 12px 0;
 }
 
