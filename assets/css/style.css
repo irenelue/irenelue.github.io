@@ -186,17 +186,18 @@ h6 {
 }
 
 #header .logo {
-	font-size: 25px;
+	font-family: "Mukta", sans-serif;
+	font-size: 18px;
 	margin: 0;
 	padding: 0;
 	line-height: 1;
-	font-weight: 600;
+	font-weight: 250;
 	letter-spacing: 1px;
 	text-transform: None;
 }
 
 #header .logo a {
-	color: #fff;
+	color: rgb(44, 44, 44); /* Irene Lue logo */
 }
 
 #header .logo img {
@@ -207,7 +208,7 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
 	/* before: background: rgba(57, 79, 121, 0.452); */
-	background: #00000036;
+	background: #00000000;
 	padding: 12px 0;
 }
 
@@ -243,10 +244,10 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* font-family: "Poppins", sans-serif; */
-	font-family: "Inter", sans-serif;
-	color: #fff;
-	font-size: 15px;
+	/* Home, Work, About links */
+	font-family: "Mukta", sans-serif;
+	color: rgb(44, 44, 44);
+	font-size: 16px;
 	padding: 0 4px;
 	white-space: nowrap;
 	transition: 0.3s;
@@ -268,7 +269,12 @@ h6 {
 	height: 2px;
 	bottom: -6px;
 	left: 0;
-	background-color: #ffffff; /* before: */
+	background-color: rgba(
+		158,
+		158,
+		158,
+		0
+	); /* Home Work About underline hover */
 	visibility: hidden;
 	transform: scaleX(0);
 	transition: all 0.3s ease-in-out 0s;
@@ -285,7 +291,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-	color: #fff;
+	color: rgb(170, 170, 170); /* Home Work About WORD hover*/
 }
 
 .navbar .dropdown ul {
@@ -298,7 +304,7 @@ h6 {
 	z-index: 99;
 	opacity: 0;
 	visibility: hidden;
-	background: #fff;
+	background: rgb(150, 28, 28);
 	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 	transition: 0.3s;
 }
@@ -356,7 +362,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-	color: #fff;
+	color: rgb(44, 44, 44); /* 3 lines menu bar */
 	font-size: 28px;
 	cursor: pointer;
 	display: none;
@@ -380,7 +386,12 @@ h6 {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background: rgba(45, 37, 38, 0.9);
+	background: rgba(
+		85,
+		85,
+		85,
+		0.671
+	); /* shrink page mobile menu background box*/
 	transition: 0.3s;
 	z-index: 999;
 }
@@ -399,7 +410,7 @@ h6 {
 	bottom: 15px;
 	left: 15px;
 	padding: 10px 0;
-	background-color: #fff;
+	background-color: #fff; /* mobile menu inside box */
 	overflow-y: auto;
 	transition: 0.3s;
 }
@@ -417,13 +428,13 @@ h6 {
 .navbar-mobile a {
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #493c3e;
+	color: #444444; /* mobile menu general font color */
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-	color: #1973cc;
+	color: rgb(185, 185, 185); /* mobile menu curr page color */
 }
 
 .navbar-mobile .getstarted {
@@ -438,7 +449,7 @@ h6 {
 	z-index: 99;
 	opacity: 1;
 	visibility: visible;
-	background: #fff;
+	background: rgb(230, 12, 12);
 	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -498,7 +509,7 @@ h6 {
 }
 
 #hero .logo a {
-	color: #fff;
+	color: rgb(201, 33, 33);
 }
 
 #hero .logo img {
@@ -522,7 +533,7 @@ h6 {
 
 #hero h3 {
 	background: rgba(255, 255, 255, 0.1);
-	color: #fff;
+	color: rgb(44, 44, 44);
 	font-size: 26px;
 	padding: 10px 30px;
 	margin-bottom: 30px;
@@ -531,21 +542,25 @@ h6 {
 
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
-	font-family: "Inter", sans-serif;
+	font-family: "Merriweather", serif; /* home page title font */
 	margin: 0 0 10px 0;
 	margin-bottom: 20px;
-	font-size: 68px;
-	font-weight: bold !important;
-	line-height: 110px;
+	font-size: 50px;
+	font-weight: 350;
+	line-height: 45px;
+	letter-spacing: 2px;
 	text-transform: none;
-	color: #fff;
+	color: rgb(44, 44, 44);
 }
 
 #hero h2 {
-	color: #eee;
+	font-family: "Mukta", serif; /* home page description font */
+	color: rgb(85, 85, 85);
+	line-height: 35px;
 	margin: 0 0 10px 0;
 	margin-bottom: 10px;
 	font-size: 20px;
+	font-weight: lighter;
 }
 
 #hero .btn-get-started {
@@ -668,7 +683,7 @@ section {
 .section-title h4 {
 	color: #1973cc;
 	/* font-family: "Courier New", monospace; */
-	font-family: "Inter", sans-serif;
+	font-family: "Mukta", sans-serif;
 	text-align: center;
 	margin: 90px auto 0 auto;
 	font-size: 23px;
@@ -690,7 +705,7 @@ section {
 	width: 960px;
 }
 .about-title {
-	font-family: "Inter", sans-serif;
+	font-family: "Merriweather", sans-serif;
 	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 25px;
@@ -701,7 +716,7 @@ section {
 }
 
 .about-subtitle {
-	font-family: "Inter", sans-serif;
+	font-family: "Mukta", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -712,13 +727,13 @@ section {
 }
 
 .about-paragraph {
-	font-family: "Inter", sans-serif;
+	font-family: "Mukta", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Inter", sans-serif;
 	width: 100%;
-	font-size: 16px;
-	line-height: 200%;
+	font-size: 18px;
+	line-height: 180%;
+	padding-bottom: 15px;
 }
 
 .about-link {
@@ -968,7 +983,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-	color: #fff;
+	color: rgb(77, 42, 42);
 	background: #1973cc;
 }
 
@@ -1022,14 +1037,16 @@ section {
 }
 
 .portfolio .image_title {
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 25px;
+	font-family: "Mukta", sans-serif;
+	font-weight: lighter;
 	color: #ffffff;
 	margin-top: 25px;
 }
 
 .portfolio .image_description {
-	font-size: 15px;
+	font-size: 16px;
+	font-family: "Mukta", sans-serif;
 	color: #ffffffb2;
 	margin-top: 5px;
 }
@@ -1677,30 +1694,33 @@ section {
 	overflow: hidden;
 }
 
-/* added for top of blog post title */
+/* project title 1 */
 .blog .entry .entry-heada {
 	text-align: left;
 	font-size: 40px;
-	font-weight: bold;
+	font-weight: bolder;
 	padding: 0;
 	margin: 0 0 10px 0;
 	/* font-family: "Times New Roman", Times, serif; */
-	font-family: "Inter", sans-serif;
+	font-family: "Merriweather", sans-serif;
+	color: #444444;
 }
 
+/* project title 2 */
 .blog .entry .entry-heada2 {
 	text-align: left;
 	line-height: 23px;
-	font-size: 15px;
-	font-weight: none;
+	font-size: 17px;
+	font-weight: light;
 	padding: 0;
 	margin: 0 0 50px 0;
-	color: #000000;
+	color: #444444;
 	/* font-family: Arial, Helvetica, sans-serif; */
-	font-family: "Inter", sans-serif;
+	font-family: "Mukta", sans-serif;
 }
 
 .blog .entry .entry-title {
+	font-family: "Mukta", sans-serif;
 	font-size: 28px;
 	font-weight: bold;
 	padding: 0;
@@ -1750,6 +1770,7 @@ section {
 .blog .entry .entry-content p {
 	line-height: 35px;
 	font-size: 18px; /* originally 16px*/
+	font-family: "Mukta", sans-serif;
 }
 
 .blog .entry .entry-content .read-more {
