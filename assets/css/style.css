@@ -962,10 +962,6 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #port-container {
-	margin-bottom: 400px;
-}
-
 .portfolio #portfolio-flters {
 	padding: 0;
 	margin: 0 auto 25px auto;
@@ -1198,6 +1194,43 @@ section {
 
 .portfolio-details .portfolio-description p {
 	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Let's get in touch 
+--------------------------------------------------------------*/
+#lgit {
+	position: absolute;
+	left: 2em;
+	bottom: 2em;
+}
+
+#lgit .lgit-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	/* margin-left: 180px; added this to move header to left */
+	justify-content: center;
+	align-items: center; /* before: left*/
+	flex-direction: column;
+	text-align: center; /* before: left*/
+	padding: 0 10px;
+}
+
+#lgit h1 {
+	font-family: "Merriweather", serif;
+	margin: 0 0 10px 0;
+	margin-top: 170px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 45px;
+	letter-spacing: 2px;
+	text-transform: none;
+	color: #1563b1;
 }
 
 /*--------------------------------------------------------------
