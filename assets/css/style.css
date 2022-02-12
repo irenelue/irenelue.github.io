@@ -807,18 +807,21 @@ section {
 	text-decoration: none;
 }
 
-/* Instagram pictures */
+/*--------------------------------------------------------------
+# About Me: Instagram
+--------------------------------------------------------------*/
 .instagram-container {
 	width: 100%;
 	margin: auto;
+	margin-bottom: 40px;
 }
 
 .instagram-title {
 	font-family: "Merriweather", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 35px;
+	margin-bottom: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
