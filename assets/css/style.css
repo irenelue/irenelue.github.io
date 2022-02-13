@@ -562,7 +562,7 @@ h6 {
 	line-height: 35px;
 	margin: 0 0 10px 0;
 	margin-bottom: 25px;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: lighter;
 }
 
@@ -848,7 +848,7 @@ section {
 --------------------------------------------------------------*/
 .spotify-container {
 	width: 33%;
-	height: 33.33%;
+	height: 33%;
 	margin: auto;
 	margin-top: 8px;
 	float: left;
