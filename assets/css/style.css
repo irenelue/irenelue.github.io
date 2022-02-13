@@ -844,6 +844,33 @@ section {
 }
 
 /*--------------------------------------------------------------
+# About me: Spotify
+--------------------------------------------------------------*/
+.spotify-container {
+	width: 33%;
+	height: 33.33%;
+	margin: auto;
+	margin-top: 8px;
+	float: left;
+}
+
+.spotify-container2 {
+	width: 33%;
+	height: 33.33%;
+	margin: auto;
+	margin-top: 23px;
+	float: center;
+}
+
+.spotify-container3 {
+	width: 33%;
+	height: 33.33%;
+	margin: auto;
+	margin-top: -208px;
+	float: right;
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services {
