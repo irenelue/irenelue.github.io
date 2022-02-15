@@ -188,12 +188,15 @@ h6 {
 
 #header .logo {
 	font-family: "Mukta", sans-serif;
-	font-size: 18px;
+	color: #444444;
+	font-size: 19px;
+	padding: 0 4px;
+	white-space: nowrap;
 	margin: 0;
 	padding: 0;
 	line-height: 1;
 	font-weight: 250;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-transform: None;
 }
 
@@ -204,6 +207,8 @@ h6 {
 #header .logo img {
 	max-height: 40px;
 }
+
+/* add hover here for logo??*/
 
 /* for that weird bar at the top*/
 #header.header-scrolled,
@@ -870,6 +875,13 @@ section {
 	float: right;
 }
 
+.newFooter {
+	position: relative;
+	width: 500px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1269,37 +1281,29 @@ section {
 # Let's get in touch 
 --------------------------------------------------------------*/
 #lgit {
-	position: absolute;
-	left: 2em;
-	bottom: 2em;
+	width: 300%;
 }
 
 #lgit .lgit-container {
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	/* margin-left: 180px; added this to move header to left */
-	justify-content: center;
-	align-items: center; /* before: left*/
-	flex-direction: column;
-	text-align: center; /* before: left*/
-	padding: 0 10px;
+	position: relative;
 }
 
 #lgit h1 {
-	font-family: "Merriweather", serif;
-	margin: 0 0 10px 0;
-	margin-top: 170px;
-	margin-bottom: 20px;
-	font-size: 40px;
-	font-weight: 500;
-	line-height: 45px;
-	letter-spacing: 2px;
-	text-transform: none;
-	color: #1563b1;
+	width: 200px;
+	font-family: "Mukta", serif;
+	font-size: 23px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+}
+#lgit h2 {
+	width: 200px;
+	font-family: "Mukta", serif;
+	font-size: 22px;
+	font-weight: lighter;
+	letter-spacing: 0px;
+	margin-bottom: -30px;
 }
 
 /*--------------------------------------------------------------
