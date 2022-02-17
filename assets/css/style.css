@@ -486,7 +486,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
 	width: 100%;
-	height: 40vh;
+	height: 50vh;
 	/* this is to add a gradient or darker opacity to background image */
 	background: linear-gradient(rgba(77, 189, 189, 0), rgba(0, 0, 0, 0)),
 		url("../img/hero-bg.jpg") top center;
@@ -549,6 +549,7 @@ h6 {
 /* home page title 1 */
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
+	width: 100%;
 	font-family: "Merriweather", serif;
 	margin: 0 0 10px 0;
 	margin-top: 170px;
@@ -562,6 +563,7 @@ h6 {
 }
 
 #hero h2 {
+	width: 40%;
 	font-family: "Mukta", serif; /* home page description font */
 	color: rgb(119, 119, 119);
 	line-height: 35px;
