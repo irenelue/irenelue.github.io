@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #444444;
 }
 
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 }
 
 /*------------------------------s--------------------------------
@@ -187,7 +187,7 @@ h6 {
 }
 
 #header .logo {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #444444;
 	font-size: 19px;
 	padding: 0 4px;
@@ -251,7 +251,7 @@ h6 {
 	align-items: center;
 	justify-content: space-between;
 	/* Home, Work, About links */
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #444444;
 	font-size: 16px;
 	padding: 0 4px;
@@ -550,21 +550,21 @@ h6 {
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
-	font-family: "Merriweather", serif;
+	font-family: "Mukta", sans-serif;
 	margin: 0 0 10px 0;
 	margin-top: 170px;
 	margin-bottom: 20px;
 	font-size: 40px;
 	font-weight: bold;
 	line-height: 45px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	text-transform: none;
 	color: #1563b1;
 }
 
 #hero h2 {
-	max-width: 500px;
-	font-family: "Mukta", serif; /* home page description font */
+	max-width: 600px;
+	font-family: "Work Sans", serif; /* home page description font */
 	color: rgb(119, 119, 119);
 	line-height: 35px;
 	margin: 0 0 10px 0;
@@ -693,7 +693,7 @@ section {
 .section-title h4 {
 	color: #1973cc;
 	/* font-family: "Courier New", monospace; */
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	text-align: center;
 	margin: 90px auto 0 auto;
 	font-size: 23px;
@@ -721,18 +721,19 @@ section {
 }
 
 .about-title {
-	font-family: "Merriweather", sans-serif;
+	font-family: "Mukta", sans-serif;
 	font-size: 35px;
 	font-weight: bold;
 	margin-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
+	letter-spacing: 2px;
 	width: 100%;
 	color: #1563b1;
 }
 
 .about-subtitle {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -743,7 +744,7 @@ section {
 }
 
 .about-paragraph {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -825,9 +826,10 @@ section {
 }
 
 .instagram-title {
-	font-family: "Merriweather", sans-serif;
-	font-size: 20px;
+	font-family: "Mukta", sans-serif;
+	font-size: 25px;
 	font-weight: bold;
+	letter-spacing: 2px;
 	margin-top: 35px;
 	margin-bottom: 15px;
 	margin-left: auto;
@@ -1124,7 +1126,7 @@ section {
 
 .portfolio .image_title {
 	font-size: 25px;
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	color: #ffffff;
 	margin-top: 25px;
@@ -1132,7 +1134,7 @@ section {
 
 .portfolio .image_description {
 	font-size: 16px;
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #ffffffb2;
 	margin-top: 5px;
 }
@@ -1292,7 +1294,7 @@ section {
 
 #lgit h1 {
 	width: 200px;
-	font-family: "Mukta", serif;
+	font-family: "Work Sans", serif;
 	font-size: 23px;
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -1301,7 +1303,7 @@ section {
 }
 #lgit h2 {
 	width: 200px;
-	font-family: "Mukta", serif;
+	font-family: "Work Sans", serif;
 	font-size: 22px;
 	font-weight: lighter;
 	letter-spacing: 0px;
@@ -1817,7 +1819,8 @@ section {
 	padding: 0;
 	margin: 0 0 10px 0;
 	/* font-family: "Times New Roman", Times, serif; */
-	font-family: "Merriweather", sans-serif;
+	font-family: "Mukta", sans-serif;
+	letter-spacing: 2px;
 	color: #444444;
 }
 
@@ -1831,11 +1834,11 @@ section {
 	margin: 0 0 50px 0;
 	color: #444444;
 	/* font-family: Arial, Helvetica, sans-serif; */
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 }
 
 .blog .entry .entry-title {
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	font-size: 28px;
 	font-weight: bold;
 	padding: 0;
@@ -1885,7 +1888,7 @@ section {
 .blog .entry .entry-content p {
 	line-height: 35px;
 	font-size: 18px; /* originally 16px*/
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 }
 
 .blog .entry .entry-content .read-more {
