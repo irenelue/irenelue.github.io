@@ -189,7 +189,7 @@ h6 {
 #header .logo {
 	font-family: "Work Sans", sans-serif;
 	color: #444444;
-	font-size: 19px;
+	font-size: 20px;
 	padding: 0 4px;
 	white-space: nowrap;
 	margin: 0;
@@ -559,7 +559,8 @@ h6 {
 	line-height: 45px;
 	letter-spacing: 3px;
 	text-transform: none;
-	color: #1563b1;
+	color: #1c87eb;
+	/* color: #1563b1; #1c87eb; #69c5cc; */
 }
 
 #hero h2 {
@@ -729,7 +730,8 @@ section {
 	margin-right: auto;
 	letter-spacing: 2px;
 	width: 100%;
-	color: #1563b1;
+	color: #1c87eb;
+	/* color: #1563b1; */
 }
 
 .about-subtitle {
@@ -748,7 +750,7 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 200%;
 	padding-bottom: 15px;
 }
@@ -835,7 +837,8 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	color: #1563b1;
+	color: #1c87eb;
+	/* color: #1563b1; */
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
