@@ -1,0 +1,762 @@
+/**
+* Template Name: Tempo - v4.3.0
+* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+	font-family: "Work Sans", sans-serif;
+	color: #3b3b3b;
+}
+
+a {
+	color: #3b3b3b; /*before: #1563b1;*/
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3b3b3b; /*before: #1b76d1*/
+	text-decoration: none;
+}
+
+a.class1 {
+	/* twitter, instagram, linkedin, spotify links at bottom */
+	display: inline-block;
+	color: #ffffff; /* before: 1973cc // beforebefore: #1563b1;*/
+	font-size: 40px;
+	letter-spacing: 10px;
+	transform: scale(0.5);
+	transition: 0.5s;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+a.class1:hover {
+	/* color: rgb(175, 175, 175);
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0s; */
+	transform: scale(0.5) translateY(-15px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Work Sans", sans-serif;
+}
+
+/*------------------------------s--------------------------------
+# consistent button for linkedin 
+--------------------------------------------------------------*/
+.consistent-buttonD {
+	position: fixed;
+	visibility: visible;
+	opacity: 0;
+	right: 150px;
+	bottom: 15px;
+	z-index: 996;
+	background: #1973cc;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.consistent-buttonD i {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 0;
+}
+
+.consistent-buttonD:hover {
+	background: #000000;
+	color: rgb(104, 20, 20);
+}
+
+.consistent-buttonD.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*------------------------------s--------------------------------
+# consistent button for github 
+--------------------------------------------------------------*/
+.consistent-buttonL {
+	position: fixed;
+	visibility: visible;
+	opacity: 0;
+	right: 105px;
+	bottom: 15px;
+	z-index: 996;
+	background: #1973cc;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.consistent-buttonL i {
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	line-height: 0;
+}
+
+.consistent-buttonL:hover {
+	background: #000000;
+	color: #fff;
+}
+
+.consistent-buttonL.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*------------------------------s--------------------------------
+# consistent button for dribbble 
+--------------------------------------------------------------*/
+.consistent-button {
+	position: fixed;
+	visibility: visible;
+	opacity: 0;
+	right: 60px;
+	bottom: 15px;
+	z-index: 996;
+	background: #cc8d19;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.consistent-button i {
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	line-height: 0;
+}
+
+.consistent-button:hover {
+	background: #000000;
+	color: #fff;
+}
+
+.consistent-button.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 996;
+	background: #cc5219;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	transition: all 0.4s;
+}
+
+.back-to-top i {
+	font-size: 28px;
+	color: #fff; /* the white arrow inside blue circle */
+	line-height: 0;
+}
+
+.back-to-top:hover {
+	background: #000000;
+	color: rgb(156, 34, 34);
+}
+
+.back-to-top.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+	/* transition: all 0.5s; */
+	z-index: 997;
+	padding: 20px 0;
+}
+
+#header .logo {
+	/* not the IRENE LUE logo */
+	font-family: "Mukta", sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 0 4px;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 450;
+	letter-spacing: 2px;
+	text-transform: None;
+}
+
+#header .logo a {
+	color: #ffffff; /* Irene Lue logo */
+}
+
+#header .logo img {
+	max-height: 40px;
+}
+
+/* add hover here for logo??*/
+
+/* for that weird bar at the top*/
+#header.header-scrolled,
+#header.header-inner-pages {
+	/* before: background: rgba(57, 79, 121, 0.452); */
+	background: #ffffff00;
+	padding: 12px 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+	padding: 0;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+.navbar li {
+	position: relative;
+}
+
+.navbar > ul > li {
+	white-space: nowrap;
+	padding: 10px 0 10px 24px;
+}
+
+.navbar a,
+.navbar a:focus {
+	display: inline-block;
+	align-items: center;
+	justify-content: space-between;
+	/* Home, Work, About links */
+	font-family: "Work Sans", sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 0 4px;
+	padding-top: 10px;
+	white-space: nowrap;
+	transition: 0.5s;
+	letter-spacing: 0.4px;
+	position: relative;
+	transform: scale(1);
+}
+
+/* .navbar a i,
+.navbar a:focus i {
+	font-size: 12px;
+	line-height: 0;
+	margin-left: 5px;
+} */
+/* 
+.navbar > ul > li > a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: -6px;
+	left: 0;
+	background-color: rgba(
+		158,
+		158,
+		158,
+		0
+	); /* Home Work About underline hover
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
+} */
+
+/* .navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
+	visibility: visible;
+	transform: scaleX(1);
+} */
+
+.navbar a:hover,
+.navbar,
+.navbar,
+.navbar li:hover > a {
+	/* Home Work About WORD hover*/
+	/* color: rgb(175, 175, 175);  */
+	color: #ffffff;
+	transform: scale(1) translateY(-10px);
+}
+
+/* .navbar .dropdown ul {
+	display: block;
+	position: absolute;
+	left: 24px;
+	top: calc(100% + 30px);
+	margin: 0;
+	padding: 10px 0;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	background: rgb(150, 28, 28);
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	transition: 0.3s;
+} */
+
+/* .navbar .dropdown ul li {
+	min-width: 200px;
+} */
+
+/* .navbar .dropdown ul a {
+	padding: 10px 20px;
+	font-size: 14px;
+	text-transform: none;
+	color: #3b3b3b;
+}
+ */
+.navbar .dropdown ul a i {
+	font-size: 12px;
+}
+
+/* .navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+	color: #1973cc;
+} */
+
+/* .navbar .dropdown:hover > ul {
+	opacity: 1;
+	top: 100%;
+	visibility: visible;
+} */
+
+/* .navbar .dropdown .dropdown ul {
+	top: 0;
+	left: calc(100% - 30px);
+	visibility: hidden;
+}
+ */
+/* .navbar .dropdown .dropdown:hover > ul {
+	opacity: 1;
+	top: 0;
+	left: 100%;
+	visibility: visible;
+} */
+
+/* @media (max-width: 1366px) {
+	.navbar .dropdown .dropdown ul {
+		left: -90%;
+	}
+	.navbar .dropdown .dropdown:hover > ul {
+		left: -100%;
+	}
+} */
+
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+	color: #ffffff; /* 3 lines menu bar */
+	font-size: 28px;
+	cursor: pointer;
+	display: none;
+	line-height: 0;
+	transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+	.mobile-nav-toggle {
+		display: block;
+	}
+	.navbar ul {
+		display: none;
+	}
+}
+
+.navbar-mobile {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(
+		85,
+		85,
+		85,
+		0.671
+	); /* shrink page mobile menu background box*/
+	transition: 0.3s;
+	z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.navbar-mobile ul {
+	display: block;
+	position: absolute;
+	top: 55px;
+	right: 15px;
+	bottom: 15px;
+	left: 15px;
+	padding: 10px 0;
+	background-color: #fff; /* mobile menu inside box */
+	overflow-y: auto;
+	transition: 0.3s;
+}
+
+.navbar-mobile > ul > li {
+	padding: 0;
+}
+
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
+	visibility: hidden;
+}
+
+.navbar-mobile a {
+	padding: 10px 20px;
+	font-size: 15px;
+	color: #3b3b3b; /* mobile menu general font color */
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+	color: #3b3b3b; /* 3 lines, highlights curr page that's 'active' */
+}
+
+.navbar-mobile .getstarted {
+	margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+	position: static;
+	display: none;
+	margin: 10px 20px;
+	padding: 10px 0;
+	z-index: 99;
+	opacity: 1;
+	visibility: visible;
+	background: rgb(230, 12, 12);
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+	min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+	padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+	font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
+	color: #1973cc;
+}
+
+.navbar-mobile .dropdown > .dropdown-active {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 50vh;
+	/* this is to add a gradient or darker opacity to background image */
+	background: linear-gradient(rgba(77, 189, 189, 0), rgba(0, 0, 0, 0)),
+		url("../img/hero-bg.jpg") top center;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: "";
+	background: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#hero .logo {
+	/* idk which this is */
+	font-size: 1px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: None;
+}
+
+#hero .logo a {
+	color: rgb(201, 33, 33);
+}
+
+#hero .logo img {
+	max-height: 40px;
+}
+
+#hero .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	/* margin-left: 180px; added this to move header to left */
+	justify-content: center;
+	align-items: center; /* before: left*/
+	flex-direction: column;
+	text-align: center; /* before: left*/
+	padding: 0 10px;
+}
+
+/* home page title 1 */
+#hero h1 {
+	/* font-family: "Nunito", sans-serif; */
+	width: 100%;
+	font-family: "Mukta", sans-serif;
+	margin: 0 0 10px 0;
+	margin-top: 170px;
+	margin-bottom: 20px;
+	font-size: 33px;
+	font-weight: bold;
+	line-height: 45px;
+	letter-spacing: 3px;
+	text-transform: none;
+	color: #1c87eb;
+	/* color: #1563b1; #1c87eb; #69c5cc; */
+}
+
+#hero h2 {
+	max-width: 500px;
+	font-family: "Work Sans", serif; /* home page description font */
+	color: rgb(119, 119, 119);
+	line-height: 35px;
+	margin: 0 0 10px 0;
+	margin-bottom: 25px;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+#hero h3 {
+	background: rgba(255, 255, 255, 0.1);
+	color: rgb(44, 44, 44);
+	font-size: 26px;
+	padding: 10px 30px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+}
+
+#hero .btn-get-started {
+	/* font-family: "Poppins", sans-serif; */
+	font-family: "Inter", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 30px 9px 30px;
+	border-radius: 50px;
+	transition: 0.5s;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+#hero .btn-get-started:hover {
+	background: #1973cc;
+	border: 2px solid #1973cc;
+}
+
+@media (min-width: 1024px) {
+	#hero {
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 768px) {
+	#hero h3 {
+		font-size: 22px;
+	}
+	#hero h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	#hero h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-height: 500px) {
+	#hero {
+		height: 150vh;
+	}
+}
+
+/* ================ UNDER CONSTRUCTION PAGE ================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+h1 {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	letter-spacing: 10px;
+	line-height: 1.2;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #fff;
+	/* background: var(--primary-color)
+		url("./https://traversymedia.com/downloads/cover.jpg") no-repeat center
+		center/cover; */
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container:after {
+	content: "";
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.322); /* before: 	background: rgba(0, 0, 0, 0.5);*/
+	position: absolute;
+}
+
+.content {
+	z-index: 2;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+#about {
+	padding: 40px;
+	text-align: center;
+}
+
+#about p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+#about h2 {
+	margin: 30px 0;
+	color: var(--primary-color);
+}
+
+.social a {
+	margin: 0 5px;
+}
