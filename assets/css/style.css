@@ -1156,6 +1156,8 @@ section {
 	font-size: 25px;
 	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
+	letter-spacing: 3px;
+	font-weight: 500;
 	color: #ffffff;
 	margin-top: 25px;
 }
