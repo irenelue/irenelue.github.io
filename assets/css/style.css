@@ -735,12 +735,12 @@ section {
 
 .about-title {
 	font-family: "Mukta", sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	width: 100%;
 	color: #1c87eb;
 	/* color: #1563b1; */
@@ -759,7 +759,7 @@ section {
 
 .about-paragraph {
 	font-family: "Work Sans", sans-serif;
-	color: rgb(119, 119, 119);
+	color: #3b3b3b;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -854,7 +854,7 @@ section {
 
 .instagram-title {
 	font-family: "Mukta", sans-serif;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	color: #1c87eb;
@@ -871,6 +871,10 @@ section {
 	float: center;
 	width: 20%;
 	padding: 5px;
+	transition: 0.3s;
+}
+.column:hover {
+	color: #1c87ebb6;
 }
 
 /* Clear floats after image containers */
@@ -878,6 +882,60 @@ section {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+/*--------------------------------------------------------------
+# About me: Books, movies, learning
+--------------------------------------------------------------*/
+.books-container {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	margin-top: 8px;
+	float: left;
+}
+
+.books-container1 {
+	width: 33%;
+	height: 33%;
+	margin: auto;
+	margin-top: 8px;
+	float: center;
+}
+
+.books-container2 {
+	width: 33%;
+	height: 33%;
+	margin: auto;
+	margin-top: 8px;
+	float: center;
+}
+
+.books-container3 {
+	width: 33%;
+	height: 33%;
+	margin: auto;
+	margin-top: 8px;
+	float: right;
+}
+
+.books-title {
+	font-family: "Mukta", sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #1c87eb;
+	transition: 0.3s;
+	/* color: #1563b1; */
+}
+
+.books-paragraph {
+	font-family: "Work Sans", sans-serif;
+	color: #3b3b3b;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-size: 15px;
 }
 
 /*--------------------------------------------------------------
