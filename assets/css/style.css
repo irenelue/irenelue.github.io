@@ -384,6 +384,7 @@ h6 {
 	cursor: pointer;
 	display: none;
 	line-height: 0;
+	padding-top: 15px;
 	transition: 0.5s;
 }
 
@@ -737,11 +738,12 @@ section {
 	font-family: "Mukta", sans-serif;
 	font-size: 30px;
 	font-weight: bold;
+	margin-top: 28px;
 	margin-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	letter-spacing: 2px;
-	width: 100%;
+	width: 80%;
 	color: #1c87eb;
 	/* color: #1563b1; */
 }
@@ -762,7 +764,7 @@ section {
 	color: #3b3b3b;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 80%;
 	font-size: 17px;
 	line-height: 200%;
 	padding-bottom: 15px;
