@@ -752,7 +752,8 @@ section {
 	max-width: 50vw;
 	height: auto;
 	width: 100%;
-	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 35px;
 	font-family: "Mukta", sans-serif;
 	font-size: 30px;
 	font-weight: bold;
