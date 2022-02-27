@@ -748,6 +748,19 @@ section {
 	/* color: #1563b1; */
 }
 
+.about-title2 {
+	max-width: 50vw;
+	height: auto;
+	width: 100%;
+	margin-bottom: 40px;
+	font-family: "Mukta", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 80%;
+	color: #1c87eb;
+}
+
 .about-subtitle {
 	font-family: "Work Sans", sans-serif;
 	font-size: 20px;
@@ -768,6 +781,17 @@ section {
 	font-size: 17px;
 	line-height: 200%;
 	padding-bottom: 15px;
+}
+
+.about-paragraph2 {
+	font-family: "Work Sans", sans-serif;
+	font-size: 17px;
+	line-height: 200%;
+	padding-bottom: 15px;
+	color: #3b3b3b;
+	max-width: 100%;
+	height: auto;
+	width: 100%;
 }
 
 .about-link {
