@@ -955,6 +955,68 @@ section {
 	transition: 0.3s;
 	/* color: #1563b1; */
 }
+.books-middle {
+	position: absolute;
+	font-size: 0.8rem;
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: #ffffff;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.books-list {
+	max-width: 50%;
+	min-width: 100%;
+	max-height: 30%;
+	text-align: left;
+	font-size: 0.7vw;
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+	line-height: 1.5vw;
+	letter-spacing: 1px;
+	font-weight: 500;
+	color: #ffffff;
+	position: absolute;
+	top: 45%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+}
+
+.books-list2 {
+	max-width: 50%;
+	min-width: 90%;
+	max-height: 100%;
+	margin-top: 12px;
+	text-align: left;
+	font-size: 0.7vw;
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+	line-height: 1vw;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #ffffff;
+	position: absolute;
+	top: 55%;
+	left: 52%;
+	transform: translate(-50%, -50%);
+}
+
+.books-subtitle {
+	max-width: 50%;
+	min-width: 100%;
+	max-height: 100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 0.8rem;
+	font-family: "Work Sans", sans-serif;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: #bbbbbb;
+}
 
 .books-paragraph {
 	font-family: "Work Sans", sans-serif;
@@ -1238,6 +1300,17 @@ section {
 }
 
 .portfolio .image_title {
+	font-size: 25px;
+	font-family: "Work Sans", sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: #ffffff;
+	margin-top: 25px;
+}
+
+.portfolio h2 {
 	font-size: 25px;
 	font-family: "Work Sans", sans-serif;
 	text-align: center;
