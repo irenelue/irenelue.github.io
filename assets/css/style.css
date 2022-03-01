@@ -947,14 +947,22 @@ section {
 }
 
 .books-title {
+	width: 15%;
+	height: 100%;
 	font-family: "Mukta", sans-serif;
 	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	color: #1c87eb;
 	transition: 0.3s;
+
 	/* color: #1563b1; */
 }
+
+.books-title:hover {
+	color: #1c87ebb6;
+}
+
 .books-middle {
 	position: absolute;
 	font-size: 0.8rem;
