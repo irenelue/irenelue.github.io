@@ -982,15 +982,15 @@ section {
 	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	letter-spacing: 3px;
-	font-weight: 500;
-	color: #ffffff;
+	font-weight: 550;
+	color: #000000;
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 .books-list {
 	max-width: 50%;
-	min-width: 100%;
+	min-width: 85%;
 	max-height: 30%;
 	margin-top: 5px;
 	text-align: left;
@@ -1000,7 +1000,7 @@ section {
 	line-height: 1.5vw;
 	letter-spacing: 1px;
 	font-weight: 500;
-	color: #ffffff;
+	color: #000000;
 	position: absolute;
 	top: 45%;
 	left: 52%;
