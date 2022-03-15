@@ -27,7 +27,7 @@ a.class1 {
 	/* twitter, instagram, linkedin, spotify links at bottom */
 	display: inline-block;
 	color: #ffffff; /* before: 1973cc // beforebefore: #1563b1;*/
-	font-size: 35px;
+	font-size: 45px;
 	letter-spacing: 10px;
 	transform: scale(0.5);
 	transition: 0.5s;
@@ -655,6 +655,7 @@ body {
 
 a {
 	text-decoration: none;
+
 	color: var(--primary-color);
 }
 
@@ -665,16 +666,17 @@ h1 {
 	letter-spacing: 10px;
 	line-height: 1.2;
 	margin-top: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
 h3 {
 	font-family: "Work Sans", sans-serif;
 	font-weight: 300;
-	font-size: 17px;
+	font-size: 20px;
+	letter-spacing: 5px;
 	line-height: 1.2;
-	margin-top: 30px;
+	margin-top: 35px;
 	text-align: center;
 }
 
