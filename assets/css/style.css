@@ -563,7 +563,7 @@ h6 {
 	line-height: 45px;
 	letter-spacing: 3px;
 	text-transform: none;
-	color: #1c87eb;
+	color: #177add;
 	/* color: #1563b1; #1c87eb; #69c5cc; */
 }
 
@@ -744,7 +744,7 @@ section {
 	margin-right: auto;
 	letter-spacing: 2px;
 	width: 80%;
-	color: #1c87eb;
+	color: #177add;
 	/* color: #1563b1; */
 }
 
@@ -759,7 +759,7 @@ section {
 	font-weight: bold;
 	letter-spacing: 2px;
 	width: 80%;
-	color: #1c87eb;
+	color: #177add;
 }
 
 .about-subtitle {
@@ -798,12 +798,12 @@ section {
 .about-link {
 	/* margin-top: 20px; */
 	font-weight: 500;
-	color: #1c87eb;
+	color: #177add;
 	transition: 0.3s;
 }
 
 .about-link:hover {
-	color: #1c87ebb6;
+	color: #4fa7ff;
 }
 
 .about .content h3 {
@@ -884,13 +884,13 @@ section {
 	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	color: #1c87eb;
+	color: #177add;
 	transition: 0.3s;
 	/* color: #1563b1; */
 }
 
 .instagram-title:hover {
-	color: #1c87ebb6;
+	color: #4fa7ff;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -953,7 +953,7 @@ section {
 	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	color: #1c87eb;
+	color: #177add;
 	transition: 0.3s;
 
 	/* color: #1563b1; */
@@ -973,7 +973,7 @@ section {
 }
 
 .books-title:hover {
-	color: #1c87ebb6;
+	color: #4fa7ff;
 }
 
 .books-middle {
