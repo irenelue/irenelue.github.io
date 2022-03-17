@@ -537,7 +537,7 @@ h6 {
 
 #hero .hero-container {
 	position: absolute;
-	bottom: 0;
+	bottom: 100;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -553,10 +553,10 @@ h6 {
 /* home page title 1 */
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
-	width: 100%;
+	width: 200%;
 	font-family: "Mukta", sans-serif;
-	margin: 0 0 10px 0;
-	margin-top: 170px;
+	margin: 0 0 10px 200px;
+	/* margin-top: 170px; */
 	margin-bottom: 20px;
 	font-size: 33px;
 	font-weight: bold;
@@ -572,7 +572,7 @@ h6 {
 	font-family: "Work Sans", serif; /* home page description font */
 	color: rgb(119, 119, 119);
 	line-height: 35px;
-	margin: 0 0 10px 0;
+	margin: 150px 0 10px 0;
 	margin-bottom: 25px;
 	font-size: 17px;
 	font-weight: lighter;
@@ -586,6 +586,73 @@ h6 {
 	margin-bottom: 30px;
 	border-radius: 50px;
 }
+
+/* ROTATE */
+#hero .rotate-text {
+	width: 100%;
+	padding: 0; /* space between each word*/
+	margin: 0px; /* stretches the box as px goes up */
+	box-sizing: border-box;
+	font-family: "Mukta", sans-serif;
+	font-size: 33px;
+	font-weight: bold;
+	line-height: 70px;
+	letter-spacing: 3px;
+	text-transform: none;
+	color: #177add;
+}
+
+#hero .wrapper-rotate {
+	box-sizing: content-box;
+	background-color: #ffffff;
+	position: relative;
+	left: 0px;
+	top: 100px;
+	height: 50px;
+	padding: 0px 0px 0px;
+	display: flex;
+	border-radius: 0px;
+	/* box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2); */
+}
+#hero .words-rotate {
+	overflow: hidden;
+}
+span {
+	display: block;
+	height: 100%;
+	padding-left: 10px;
+	color: #0e6ffc;
+	animation: spin_words 10s infinite;
+}
+
+@keyframes spin_words {
+	10% {
+		transform: translateY(-112%);
+	}
+	25% {
+		transform: translateY(-100%);
+	}
+	35% {
+		transform: translateY(-212%);
+	}
+	50% {
+		transform: translateY(-200%);
+	}
+	60% {
+		transform: translateY(-312%);
+	}
+	75% {
+		transform: translateY(-300%);
+	}
+	85% {
+		transform: translateY(-412%);
+	}
+	100% {
+		transform: translateY(-400%);
+	}
+}
+
+/* END OF ROTATE */
 
 #hero .btn-get-started {
 	/* font-family: "Poppins", sans-serif; */
@@ -2778,3 +2845,8 @@ section {
 	color: #fff;
 	text-decoration: none;
 }
+
+/* =================================
+               ROTATE
+   =================================
+*/
