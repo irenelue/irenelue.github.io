@@ -193,16 +193,16 @@ h6 {
 
 #header .logo {
 	/* IRENE LUE logo */
-	font-family: "Mukta", sans-serif;
+	font-family: "Amiko", sans-serif;
 	color: #3b3b3b;
 	font-size: 18px;
+	font-weight: 600;
 	padding: 0 4px;
 	white-space: nowrap;
 	margin: 0;
 	padding: 0;
 	line-height: 1;
-	font-weight: 450;
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	text-transform: None;
 }
 
@@ -251,20 +251,22 @@ h6 {
 	padding: 10px 0 10px 24px;
 }
 
+/* adjusts the 'work' 'about' and 'resume' links */
 .navbar a,
 .navbar a:focus {
 	display: inline-block;
 	align-items: center;
 	justify-content: space-between;
 	/* Home, Work, About links */
-	font-family: "Work Sans", sans-serif;
+	font-family: "Amiko", sans-serif;
 	color: #3b3b3b;
 	font-size: 14px;
+	font-weight: 600;
 	padding: 0 4px;
 	padding-top: 10px;
 	white-space: nowrap;
 	transition: 0.5s;
-	letter-spacing: 0.4px;
+	letter-spacing: 0px;
 	position: relative;
 	transform: scale(1);
 }
@@ -516,8 +518,8 @@ h6 {
 	right: 0;
 }
 
+/* ??? */
 #hero .logo {
-	/* idk which this is */
 	font-size: 1px;
 	margin: 0;
 	padding: 0;
@@ -554,12 +556,12 @@ h6 {
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 200%;
-	font-family: "Mukta", sans-serif;
+	font-family: "Amiko", sans-serif;
 	margin: 0 0 10px 200px;
 	/* margin-top: 170px; */
 	margin-bottom: 20px;
 	font-size: 33px;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 45px;
 	letter-spacing: 3px;
 	text-transform: none;
@@ -595,7 +597,7 @@ h6 {
 	margin: 0px; /* stretches the box as px goes up */
 	box-sizing: border-box;
 	/* font-family: "Mukta", sans-serif; */
-	font-family: 'Amiko', sans-serif;
+	font-family: "Amiko", sans-serif;
 	font-size: max(1.3em, 10px); /* 30px; 2.5vw; */
 	font-weight: bold;
 	line-height: 50px;
@@ -989,7 +991,7 @@ section {
 	margin-top: 10px;
 	margin-bottom: 35px;
 	/* font-family: "Mukta", sans-serif; */
-	font-family: 'Amiko', sans-serif;
+	font-family: "Amiko", sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: 0px;
