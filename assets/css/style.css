@@ -596,7 +596,7 @@ h6 {
 	box-sizing: border-box;
 	/* font-family: "Mukta", sans-serif; */
 	font-family: 'Amiko', sans-serif;
-	font-size: max(1.5em, 12px); /* 30px; 2.5vw; */
+	font-size: max(1.3em, 10px); /* 30px; 2.5vw; */
 	font-weight: bold;
 	line-height: 50px;
 	letter-spacing: 1px;
@@ -632,7 +632,7 @@ span {
 	height: 100%;
 	padding-left: 10px;
 	color: #0e6ffc;
-	animation: spin_words 20s infinite;
+	animation: spin_words 15s infinite;
 }
 
 /* for copyright label */
@@ -646,7 +646,7 @@ span {
 
 @keyframes spin_words {
 	0% {
-		transform: translateY(-70%);
+		transform: translateY(-100%);
 	}
 /* 	5% {
 		transform: translateY(-112%);
