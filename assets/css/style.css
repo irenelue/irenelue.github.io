@@ -594,11 +594,12 @@ h6 {
 	padding: 0; /* space between each word*/
 	margin: 0px; /* stretches the box as px goes up */
 	box-sizing: border-box;
-	font-family: "Mukta", sans-serif;
-	font-size: max(1.5em, 12px); /* 30px; 2.5vw; */
+	/* font-family: "Mukta", sans-serif; */
+	font-family: 'Amiko', sans-serif;
+	font-size: max(1.7em, 12px); /* 30px; 2.5vw; */
 	font-weight: bold;
 	line-height: 50px;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	text-transform: none;
 	color: #177add;
 	/*span*/
@@ -614,7 +615,7 @@ h6 {
 	background-color: #ffffff;
 	position: relative;
 	left: 0px;
-	top: 100px;
+	top: 120px;
 	height: 50px;
 	padding: 0px 0px 0px;
 	display: flex;
@@ -631,7 +632,7 @@ span {
 	height: 100%;
 	padding-left: 10px;
 	color: #0e6ffc;
-	animation: spin_words 50s infinite;
+	animation: spin_words 25s infinite;
 }
 
 /* for copyright label */
@@ -644,8 +645,69 @@ span {
 } */
 
 @keyframes spin_words {
-	5% {
+	0% {
 		transform: translateY(-112%);
+	}
+/* 	5% {
+		transform: translateY(-112%);
+	} */
+	10% {
+		transform: translateY(-100%);
+	}
+	15% {
+		transform: translateY(-212%);
+	}
+	20% {
+		transform: translateY(-200%);
+	}
+	25% {
+		transform: translateY(-312%);
+	}
+	30% {
+		transform: translateY(-300%);
+	}
+	35% {
+		transform: translateY(-412%);
+	}
+	40% {
+		transform: translateY(-400%);
+	}
+	45% {
+		transform: translateY(-512%);
+	}
+	50% {
+		transform: translateY(-500%);
+	}
+	55% {
+		transform: translateY(-612%);
+	}
+	60% {
+		transform: translateY(-600%);
+	}
+	65% {
+		transform: translateY(-712%);
+	}
+	70% {
+		transform: translateY(-700%);
+	}
+	75% {
+		transform: translateY(-812%);
+	}
+	80% {
+		transform: translateY(-800%);
+	}
+	85% {
+		transform: translateY(-912%);
+	}
+	90% {
+		transform: translateY(-900%);
+	}
+	95% {
+		transform: translateY(-1000%);
+	}
+	/*
+	5% {
+		transform: translateY(-600%);
 	}
 	5% {
 		transform: translateY(-100%);
@@ -734,7 +796,7 @@ span {
 	75% {
 		transform: translateY(-1500%);
 	}
-	80% {
+ 	80% {
 		transform: translateY(-1612%);
 	}
 	80% {
@@ -754,7 +816,7 @@ span {
 	}
 	100% {
 		transform: translateY(0%);
-	}
+	} */
 }
 
 /* END OF ROTATE */
@@ -926,10 +988,11 @@ section {
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 35px;
-	font-family: "Mukta", sans-serif;
+	/* font-family: "Mukta", sans-serif; */
+	font-family: 'Amiko', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	width: 80%;
 	color: #177add;
 }
