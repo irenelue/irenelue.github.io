@@ -632,7 +632,7 @@ span {
 	height: 100%;
 	padding-left: 10px;
 	color: #0e6ffc;
-	animation: spin_words 25s infinite;
+	animation: spin_words 20s infinite;
 }
 
 /* for copyright label */
@@ -703,7 +703,7 @@ span {
 		transform: translateY(-900%);
 	}
 	95% {
-		transform: translateY(150%);
+		transform: translateY(0%);
 	}
 	/*
 	5% {
