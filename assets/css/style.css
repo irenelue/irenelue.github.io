@@ -173,7 +173,7 @@ h6 {
 }
 
 .back-to-top:hover {
-	background: #177add4d;
+	background: #00000026;
 	color: rgb(156, 34, 34);
 }
 
@@ -572,13 +572,14 @@ h6 {
 
 #hero h2 {
 	max-width: 500px;
-	font-family: "Work Sans", serif; /* home page description font */
-	color: rgb(119, 119, 119);
+	font-family: "Inter", serif; /* home page description font */
+	color: #a0a0a0;
 	line-height: 35px;
-	margin: 135px 0 10px 0;
+	letter-spacing: 0.5px;
+	margin: 150px  10px 0;
 	margin-bottom: 25px;
 	font-size: 1em; /*17px*/
-	font-weight: lighter;
+	font-weight: 300;
 	box-sizing: border-box;
 }
 
@@ -595,14 +596,14 @@ h6 {
 #hero .rotate-text {
 	min-width: 500px;
 	padding: 0; /* space between each word*/
-	margin: 0px; /* stretches the box as px goes up */
+	margin-top: 0px; /* stretches the box as px goes up */
 	box-sizing: border-box;
 	/* font-family: "Mukta", sans-serif; */
-	font-family: "Amiko", sans-serif;
-	font-size: max(1.3em, 10px); /* 30px; 2.5vw; */
-	font-weight: bold;
+	font-family: "Work Sans", sans-serif;
+	font-size: max(1.6em, 12px); /* 30px; 2.5vw; */
+	font-weight: 600;
 	line-height: 50px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-transform: none;
 	color: #177add;
 	/*span*/
@@ -992,10 +993,10 @@ section {
 	margin-top: 10px;
 	margin-bottom: 35px;
 	/* font-family: "Mukta", sans-serif; */
-	font-family: "Mukta", sans-serif;
-	font-size: 1.7em;
+	font-family: "Amiko", sans-serif;
+	font-size: 1.5em;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	width: 80%;
 	color: #177add;
 }
@@ -1118,10 +1119,10 @@ section {
 }
 
 .instagram-title {
-	font-family: "Mukta", sans-serif;
-	font-size: 21px;
+	font-family: "Amiko", sans-serif;
+	font-size: 18px;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	color: #177add;
 	transition: 0.3s;
 	/* color: #1563b1; */
@@ -1188,10 +1189,10 @@ section {
 .books-titleNL {
 	width: 100%;
 	height: 100%;
-	font-family: "Mukta", sans-serif;
-	font-size: 21px;
+	font-family: "Amiko", sans-serif;
+	font-size: 18px;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	color: #177add;
 	transition: 0.3s;
 
@@ -1590,13 +1591,16 @@ section {
 }
 
 .portfolio .image_title {
-	font-size: 1.7em;
-	font-family: "Mukta",
-		sans-serif;
+	max-width:50%;
+	font-size:1.3em;
+	font-family: "Work Sans", sans-serif;
+	margin-top:20px;
+	margin-bottom:5px;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	font-weight: lighter;
-	letter-spacing: 1.5px;
-	font-weight: 30;
+	letter-spacing:0.5px;
+	font-weight: 450;
 	color: #ffffff;
 
 }
@@ -1644,12 +1648,16 @@ section {
 }
 
 .portfolio .image_description {
-	font-size: 0.8em;
+	font-size: 0.9em;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	max-width:70%;
-	font-family: "Work Sans", sans-serif;
+	font-family: "Inter", sans-serif;
 	color: #ffffffb2;
-	margin-top: 5px;
+	margin-top: 3px;
+	letter-spacing: 2px;
+	font-weight:300;
 }
 
 /* end */
@@ -2328,13 +2336,14 @@ section {
 
 /* project title 1 */
 .blog .entry .title1 {
+	max-width:100%;
 	text-align: left;
 	font-size: 40px;
-	font-weight: 630;
+	font-weight: 550;
 	padding: 0;
-	margin: 100px 0 20px 0;
-	font-family: "Amiko", sans-serif;
-	letter-spacing: 0px;
+	margin: 50px 0 15px 0;
+	font-family: "Work Sans", sans-serif;
+	letter-spacing: px;
 	color: #177add;
 }
 
@@ -2344,8 +2353,8 @@ section {
 	font-size: 14px;
 	font-weight: light;
 	padding: 0;
-	margin: 15px 0 20px 0;
-	color: #a0a0a0;
+	margin: 0px 0 10px 0;
+	color: #000000;
 	font-family: "Work Sans", sans-serif;
 	letter-spacing:1px;
 }
@@ -2354,16 +2363,18 @@ section {
 	text-align: left;
 	width: 100%;
 	line-height: 25px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight:normal;
 	padding: 0;
-	margin: 15px 0 50px 0;
-	color: #000000;
-	font-family: "Work Sans", sans-serif;
+	margin: 5px 0 100px 0;
+	color: #a0a0a0;
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 0.5px;
 }
 
 .blog .entry .entry-title {
 	font-family: "Work Sans", sans-serif;
+	letter-spacing: 1px;
 	font-size: 28px;
 	font-weight: bold;
 	padding: 0;
@@ -2412,8 +2423,11 @@ section {
 
 .blog .entry .entry-content p {
 	line-height: 35px;
-	font-size: 18px; /* originally 16px*/
-	font-family: "Work Sans", sans-serif;
+	font-size: 16px; /* originally 16px*/
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 0.5px;
+	color:#535353;
+	font-weight:400;
 }
 
 /* proj details (i.e. role, duration, etc.) */ 
@@ -2422,12 +2436,13 @@ section {
 .next-prev-container {
 	max-height:100%;
 	max-width: 100%;
+	margin-top:200px;
 	display: flex;
 	justify-content: center;
 }
 
 .next-prev-link {
-	font-size: 15px;
+	font-size: 17px;
 	font-family: "Work Sans", sans-serif;
 	font-weight: 500;
 	color: #177add;
@@ -2458,27 +2473,47 @@ section {
 }
 
 .blog .entry .entry-content h3 {
-	font-size: 22px;
-	margin-top: 30px;
-	font-weight: bold;
+	font-size: 25px;
+	margin-top: 100px;
+	margin-bottom:20px;
+	font-weight: 630;
+	letter-spacing:1px;
+}
+
+.blog .entry .entry-content result-title {
+/* 	float:right;
+	width:50%; 
+	font-size: 20px;
+	margin-left: 55%;
+	margin-bottom:20px;	 */
+	text-align:center;
+	font-size: 1em;
+	line-height: 2em;
+	color: #000000;
+	font-weight:500;
+
 }
 
 .blog .entry .entry-content blockquote {
 	overflow: hidden;
+	width:100%;
 	background-color: #fafafa;
 	padding: 60px;
 	position: relative;
 	text-align: center;
 	margin: 20px 0;
+
 }
 
 .blog .entry .entry-content blockquote p {
 	color: #3b3b3b;
-	line-height: 1.6;
+	width:60%;
+	margin-left:20%;
+	line-height: 2;
 	margin-bottom: 0;
 	font-style: italic;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .blog .entry .entry-content blockquote::after {
