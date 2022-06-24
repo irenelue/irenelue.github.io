@@ -2453,6 +2453,7 @@ section {
 	color: #4fa7ff;
 }
 
+/* BLOG CASE STUDY STARTS HERE */
 .blog .entry .entry-content .read-more {
 	-moz-text-align-last: right;
 	text-align-last: right;
@@ -2473,10 +2474,11 @@ section {
 }
 
 .blog .entry .entry-content h3 {
+	font-family:"Inter", sans-serif;
 	font-size: 25px;
-	margin-top: 60px;
-	margin-bottom:20px;
-	font-weight: 630;
+	margin-top: 70px;
+	margin-bottom:15px;
+	font-weight: 650;
 	letter-spacing:1px;
 }
 
@@ -2491,6 +2493,7 @@ section {
 	font-weight:500;
 
 }
+
 
 .blog .entry .entry-content blockquote {
 	overflow: hidden;
@@ -2618,113 +2621,6 @@ section {
 	color: #b7b7b7;
 }
 
-.blog .blog-comments {
-	margin-bottom: 30px;
-}
-
-.blog .blog-comments .comments-count {
-	font-weight: bold;
-}
-
-.blog .blog-comments .comment {
-	margin-top: 30px;
-	position: relative;
-}
-
-.blog .blog-comments .comment .comment-img {
-	margin-right: 14px;
-}
-
-.blog .blog-comments .comment .comment-img img {
-	width: 60px;
-}
-
-.blog .blog-comments .comment h5 {
-	font-size: 16px;
-	margin-bottom: 2px;
-}
-
-.blog .blog-comments .comment h5 a {
-	font-weight: bold;
-	color: #3b3b3b;
-	transition: 0.3s;
-}
-
-.blog .blog-comments .comment h5 a:hover {
-	color: #177add;
-}
-
-.blog .blog-comments .comment h5 .reply {
-	padding-left: 10px;
-	color: #493c3e;
-}
-
-.blog .blog-comments .comment h5 .reply i {
-	font-size: 20px;
-}
-
-.blog .blog-comments .comment time {
-	display: block;
-	font-size: 14px;
-	color: #655356;
-	margin-bottom: 5px;
-}
-
-.blog .blog-comments .comment.comment-reply {
-	padding-left: 40px;
-}
-
-.blog .blog-comments .reply-form {
-	margin-top: 30px;
-	padding: 30px;
-	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.blog .blog-comments .reply-form h4 {
-	font-weight: bold;
-	font-size: 22px;
-}
-
-.blog .blog-comments .reply-form p {
-	font-size: 14px;
-}
-
-.blog .blog-comments .reply-form input {
-	border-radius: 4px;
-	padding: 10px 10px;
-	font-size: 14px;
-}
-
-.blog .blog-comments .reply-form input:focus {
-	box-shadow: none;
-	border-color: #f096a7;
-}
-
-.blog .blog-comments .reply-form textarea {
-	border-radius: 4px;
-	padding: 10px 10px;
-	font-size: 14px;
-}
-
-.blog .blog-comments .reply-form textarea:focus {
-	box-shadow: none;
-	border-color: #f096a7;
-}
-
-.blog .blog-comments .reply-form .form-group {
-	margin-bottom: 25px;
-}
-
-.blog .blog-comments .reply-form .btn-primary {
-	border-radius: 4px;
-	padding: 10px 20px;
-	border: 0;
-	background-color: #493c3e;
-}
-
-.blog .blog-comments .reply-form .btn-primary:hover {
-	background-color: #57484a;
-}
 
 .blog .blog-pagination {
 	color: #816a6e;
@@ -2907,6 +2803,86 @@ section {
 	padding-left: 5px;
 	color: #dfd8d9;
 	font-size: 14px;
+}
+
+
+/* CASE STUDY IMAGES START HERE */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.section-container {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom:5vh;
+}
+
+.section-container .columns {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.section-container .columns.image {
+	/* 	object-fit:cover; */
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-container .columns.content .content-container {
+	padding: 40px 50px;
+}
+
+.section-container .columns.content .content-container h5 {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	line-height:35px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.section-container .columns.content .content-container p {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-bottom: 15px;
+
+}
+
+@media screen and (max-width:767px) {
+	.section-container {
+		flex-flow: row wrap;
+	}
+
+	.section-container .columns.image {
+		display: block;
+		order: 1;
+		width: 100%;
+		height: 250px;
+	}
+
+	.section-container .columns.content {
+		display: block;
+		order: 2;
+		width: 100%;
+	}
+
+	.section-container .columns.content .content-container {
+		padding: 20px 35px;
+	}
+
+	.section-container .columns.content .content-container h5 {
+		margin-bottom: 5px;
+	}
 }
 
 /*--------------------------------------------------------------
