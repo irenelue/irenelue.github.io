@@ -1751,18 +1751,22 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-	padding-top: 40px;
+	padding-top: 5px;
 }
 
+/* image slider/slideshow on autoplay */
 .portfolio-details .portfolio-details-slider img {
-	max-width: 100%;
-	/* border: 3px solid #177add; */
+	width: 80%;
+	display: block;
+		margin-left: auto;
+		margin-right: auto;
 
+
+	/* border: 1px solid #177add; */
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-	margin-top:20px;
-	margin-bottom:-10px;
+	margin-bottom:-30px;
 	position: relative;
 }
 
@@ -1770,8 +1774,8 @@ section {
 	.portfolio-details-slider
 	.swiper-pagination
 	.swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
+	width: 10px;
+	height: 10px;
 	background-color: #fff;
 	opacity: 1;
 	border: 1px solid #177add;
