@@ -547,12 +547,14 @@ h6 {
 	left: 0;
 	right: 0;
 	display: flex;
-	/* margin-left: 180px; added this to move header to left */
 	justify-content: center;
-	align-items: center; /* before: left*/
+	align-items: left; /* before: left*/
 	flex-direction: column;
-	text-align: center; /* before: left*/
-	padding: 0 10px;
+	text-align: left; /* before: left*/
+	padding: 0 100px;
+
+	width:100%;
+	margin: 0 auto;
 }
 
 /* home page title 1 */
@@ -560,13 +562,15 @@ h6 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
 	font-family: "Work Sans", sans-serif;
-	text-align:center;
+	text-align:left;
 	margin-top: 140px;
-	font-size: 35px;
+	font-size: 70px;
 	font-weight: 550;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-transform: none;
 	color: #177add;
+	display:inline-block;
+	padding-top:100px;
 	/* color: #1563b1; #1c87eb; #69c5cc; */
 }
 
@@ -584,12 +588,29 @@ h6 {
 }
 
 #hero h3 {
-	background: rgba(255, 255, 255, 0.1);
-	color: rgb(44, 44, 44);
-	font-size: 26px;
-	padding: 10px 30px;
-	margin-bottom: 30px;
-	border-radius: 50px;
+	/* font-family: "Nunito", sans-serif; */
+	max-width: 550px;
+	font-family: "Work Sans", sans-serif;
+	text-align: left;
+	margin-top:10px;
+	margin-right:auto;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height:30px;
+	text-transform: none;
+	color: #a1a1a1;
+	display: inline-block;
+
+	/* color: #1563b1; #1c87eb; #69c5cc; */
+}
+
+#hero .button-container header-buttons {
+	float: center;
+	text-align: center;
+	border-radius: 10px;
+	width: 10%;
+	border: 1.5px solid #177add;
 }
 
 /* ROTATE */
