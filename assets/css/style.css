@@ -1580,6 +1580,7 @@ section {
 
 /* start */
 .portfolio .image {
+	width:100%;
 	position: relative;
 }
 
