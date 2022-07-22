@@ -1541,7 +1541,7 @@ section {
 --------------------------------------------------------------*/
 
 .split-container {
-	background-color: rgb(255, 255, 255); 
+	background-color: rgba(255, 255, 255, 0.206); 
 }
 
 .portfolio #portfolio-flters {
@@ -1823,7 +1823,7 @@ section {
 
 /* image slider/slideshow on autoplay */
 .portfolio-details .portfolio-details-slider img {
-	width: 80%;
+	width: 90%;
 	display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -1833,7 +1833,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-	margin-bottom:-30px;
+	margin-bottom:0px;
 	position: relative;
 }
 
@@ -1843,16 +1843,16 @@ section {
 	.swiper-pagination-bullet {
 	width: 10px;
 	height: 10px;
-	background-color: #fff;
+	background-color: rgb(220, 220, 220);
 	opacity: 1;
-	border: 1px solid #177add;
+
 }
 
 .portfolio-details
 	.portfolio-details-slider
 	.swiper-pagination
 	.swiper-pagination-bullet-active {
-	background-color: #177add;
+	background-color: #959595;
 }
 
 .portfolio-details .portfolio-info {
@@ -2564,8 +2564,8 @@ section {
 
 .blog .entry .entry-content h3 {
 	font-family:"Amiko", sans-serif;
-	font-size: 25px;
-	margin-top: 70px;
+	font-size: 28px;
+	margin-top: 0px;
 	margin-bottom:25px;
 	font-weight: 900;
 	letter-spacing:1px;
@@ -2917,7 +2917,7 @@ body {
 
 /* without the 10% padding*/
 .section-container2 {
-	--bs-gutter-x: 1.5rem;
+	--bs-gutter-x: 0rem;
 	--bs-gutter-y: 0;
 	display: flex;
 	flex-wrap: wrap;
