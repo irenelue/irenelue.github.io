@@ -1539,6 +1539,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.split-container {
+	background-color: rgb(255, 255, 255); 
+}
+
 .portfolio #portfolio-flters {
 	padding: 0;
 	margin: 0 auto 25px auto;
@@ -2437,7 +2442,7 @@ section {
 	font-size: 14px;
 	font-weight: light;
 	padding: 0;
-	margin: 0px 0 10px 0;
+	margin: 20px 0 20px 0;
 	color: #000000;
 	font-family: "Work Sans", sans-serif;
 	letter-spacing:1px;
@@ -2450,7 +2455,7 @@ section {
 	font-size: 15px;
 	font-weight:normal;
 	padding: 0;
-	margin: 5px 0 100px 0;
+	margin: 20px 0 100px 0;
 	color: #a0a0a0;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.5px;
@@ -2510,7 +2515,7 @@ section {
 	font-size: 16px; /* originally 16px*/
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.5px;
-	color:#535353;
+	color:#a0a0a0;
 	font-weight:400;
 }
 
@@ -2558,12 +2563,13 @@ section {
 }
 
 .blog .entry .entry-content h3 {
-	font-family:"Inter", sans-serif;
+	font-family:"Amiko", sans-serif;
 	font-size: 25px;
 	margin-top: 70px;
-	margin-bottom:15px;
-	font-weight: 650;
+	margin-bottom:25px;
+	font-weight: 900;
 	letter-spacing:1px;
+	color: #3e3e3e;
 }
 
 .blog .entry .entry-content result-title {
