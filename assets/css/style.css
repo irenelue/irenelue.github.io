@@ -2517,6 +2517,8 @@ section {
 	letter-spacing: 0.5px;
 	color:#a0a0a0;
 	font-weight:400;
+	width:85%;
+	margin:auto;
 }
 
 /* proj details (i.e. role, duration, etc.) */ 
@@ -2570,6 +2572,9 @@ section {
 	font-weight: 900;
 	letter-spacing:1px;
 	color: #3e3e3e;
+	width: 85%;
+	margin-right: auto;
+	margin-left:auto;
 }
 
 .blog .entry .entry-content result-title {
@@ -2955,7 +2960,7 @@ body {
 }
 
 .section-container2 .columns.content .content-container {
-	padding: 0px 30px;
+	padding: 0px 50px;
 }
 
 .section-container .columns.content .content-container h5 {
@@ -2964,6 +2969,17 @@ body {
 	line-height:35px;
 	font-size: 20px;
 	margin-bottom: 20px;
+}
+
+.section-container2 .columns.content .content-container h5 {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	line-height: 35px;
+	font-size: 20px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 
 .section-container .columns.content .content-container p {
