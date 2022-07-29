@@ -555,9 +555,9 @@ h6 {
 	align-items: left; /* before: left*/
 	flex-direction: column;
 	text-align: left; /* before: left*/
-	padding: 0 100px;
+	padding: 0 10px;
 
-	width:100%;
+	width:90%;
 	margin: 0 auto;
 }
 
@@ -611,7 +611,7 @@ h6 {
 
 #hero .button-box {
 	text-align:center; 
-	width:20%; 
+	width:200px; 
 	border-radius:15px;
 	background:#fff;
 	border:3px solid #177add;	
@@ -903,12 +903,13 @@ on home page
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* edits the mobile's welcome page */
 	#hero h3 {
-		font-size: 22px;
+		font-size: 15px;
+		line-height:23px;
 	}
 	#hero h1 {
-		font-size: 28px;
+		font-size: 36px;
 		line-height: 36px;
 	}
 	#hero h2 {
@@ -1046,7 +1047,6 @@ section {
 }
 
 .about-title2 {
-	max-width: 50vw;
 	height: auto;
 	width: 100%;
 	margin-top: 13px;
@@ -1287,12 +1287,11 @@ section {
 	transform: translate(-50%, -50%);
 }
 .books-list {
-	max-width: 50%;
-	min-width: 85%;
+	width:90%;
 	max-height: 30%;
 	margin-top: 5px;
 	text-align: left;
-	font-size: 0.7vw;
+	font-size: 0.75vw;
 	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	line-height: 1.5vw;
@@ -1301,9 +1300,23 @@ section {
 	color: #000000;
 	position: absolute;
 	top: 45%;
-	left: 52%;
+	left:10vw;
 	transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 540px) {
+	.books-list {
+		width: 100%;
+		left:30%;
+	}
+
+	.books-middle {
+		text-align: center;
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+
 
 /* DON'T MESS W THIS, it's for quotes on about me page*/
 .books-list2 {
