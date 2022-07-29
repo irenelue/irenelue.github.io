@@ -2516,7 +2516,7 @@ section {
 
 .blog .entry .subtitle1 {
 	text-align: left;
-	width:60%;
+	width:50%;
 	font-size: 14px;
 	font-weight: light;
 	padding: 0;
@@ -2524,19 +2524,66 @@ section {
 	color: #000000;
 	font-family: "Work Sans", sans-serif;
 	letter-spacing:1px;
+	line-height:30px;
 }
 
 .blog .entry .subtitle2 {
 	text-align: left;
-	width: 100%;
+	width: 50%;
 	line-height: 25px;
 	font-size: 15px;
 	font-weight:normal;
 	padding: 0;
-	margin: 20px 0 100px 0;
+	margin: 20px 0 10% 0%;
 	color: #a0a0a0;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+
+.blog .entry .case-details {
+	width:25%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.blog .entry .case-details h2 {
+	font-family: 'Amiko', sans-serif;
+	font-size: 2.3vh;
+	font-weight: 800;
+	margin-bottom: 15px;
+	letter-spacing: 0.3px;
+}
+
+.blog .entry .case-details p {
+	color: #a0a0a0;
+	font-family: 'Inter', sans-serif;
+	font-size: 0.8em;
+	line-height: 28px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	width:25%;
+		margin-left: auto;
+			margin-right: auto;
+}
+
+@media screen and (max-width: 540px) {
+	.blog .entry .subtitle1 {
+			width: 100%;
+		}
+	.blog .entry .subtitle2 {
+		width: 100%;
+	}
+
+	.blog .entry .case-details h2 {
+		font-size: 12px;
+		width:100%;
+	}
+
+	.blog .entry .case-details p {
+		font-size:10px;
+			width: 100%;
+	}
 }
 
 .blog .entry .entry-title {
@@ -2595,8 +2642,9 @@ section {
 	letter-spacing: 0.5px;
 	color:#a0a0a0;
 	font-weight:400;
-	width:85%;
+	width:100%;
 	margin:auto;
+	margin-bottom:50px;
 }
 
 /* proj details (i.e. role, duration, etc.) */ 
@@ -2650,7 +2698,7 @@ section {
 	font-weight: 900;
 	letter-spacing:1px;
 	color: #3e3e3e;
-	width: 85%;
+	width: 100%;
 	margin-right: auto;
 	margin-left:auto;
 }
