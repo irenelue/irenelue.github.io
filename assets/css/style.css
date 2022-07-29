@@ -272,12 +272,13 @@ h6 {
 	transform: scale(1);
 }
 
-/* .navbar a i,
+.navbar a i,
 .navbar a:focus i {
 	font-size: 12px;
 	line-height: 0;
 	margin-left: 5px;
-} */
+}
+
 /* 
 .navbar > ul > li > a:before {
 	content: "";
@@ -382,16 +383,19 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-	color: #3b3b3b; /* 3 lines menu bar */
+	color: #3b3b3b;
+	/* 3 lines menu bar */
 	font-size: 28px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
-	padding-top: 15px;
+	padding-top: 30px;
+	/* position the 'x' out at top right */
+	padding-right: 10px;
 	transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 930px) {
 	.mobile-nav-toggle {
 		display: block;
 	}
@@ -426,7 +430,7 @@ h6 {
 .navbar-mobile ul {
 	display: block;
 	position: absolute;
-	top: 55px;
+	top: 35px;
 	right: 15px;
 	bottom: 15px;
 	left: 15px;
@@ -513,7 +517,7 @@ h6 {
 
 #hero:before {
 	content: "";
-	background: rgb(255, 255, 255);
+	background: rgb(255, 255, 255); /* bg color for welcome section*/
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -608,9 +612,9 @@ h6 {
 #hero .button-box {
 	text-align:center; 
 	width:20%; 
-	border-radius:10px;
+	border-radius:15px;
 	background:#fff;
-	border:2px solid #177add;	
+	border:3px solid #177add;	
 	color: rgb(0, 0, 0);
 	padding: 10px 0px 10px 0px;
 	margin-top:10px;
