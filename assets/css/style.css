@@ -2553,6 +2553,7 @@ section {
 	font-weight: 800;
 	margin-bottom: 15px;
 	letter-spacing: 0.3px;
+	color:#000000; 
 }
 
 .blog .entry .case-details p {
@@ -2640,12 +2641,30 @@ section {
 	font-size: 16px; /* originally 16px*/
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.5px;
-	color:#a0a0a0;
+	color: #a0a0a0;
+	/* color:#a0a0a0; */
 	font-weight:400;
 	width:100%;
 	margin:auto;
 	margin-bottom:0px;
 }
+
+.blog .entry .entry-content ol {
+	line-height: 35px;
+	font-size: 16px;
+	/* originally 16px*/
+	font-family: 'Inter', sans-serif;
+	letter-spacing: 0.5px;
+	color: #a0a0a0;
+	/* color:#a0a0a0; */
+	font-weight: 400;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+
+
 
 /* proj details (i.e. role, duration, etc.) */ 
 
@@ -2692,12 +2711,12 @@ section {
 
 .blog .entry .entry-content h3 {
 	font-family:"Amiko", sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	margin-top: 0px;
 	margin-bottom:25px;
 	font-weight: 900;
 	letter-spacing:1px;
-	color: #3e3e3e;
+	color: #000000;
 	width: 100%;
 	margin-right: auto;
 	margin-left:auto;
@@ -2720,7 +2739,7 @@ section {
 	overflow: hidden;
 	width:100%;
 	background-color: #fafafa;
-	padding: 60px;
+	padding: 30px;
 	position: relative;
 	text-align: center;
 	margin: 20px 0;
@@ -2729,8 +2748,8 @@ section {
 
 .blog .entry .entry-content blockquote p {
 	color: #3b3b3b;
-	width:60%;
-	margin-left:20%;
+	width:50%;
+	margin-left:25%;
 	line-height: 2;
 	margin-bottom: 0;
 	font-style: italic;
