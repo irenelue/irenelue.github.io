@@ -2636,6 +2636,55 @@ section {
 	line-height: 1;
 }
 
+.blog .entry .entry-containa {
+	position: absolute;
+	bottom: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	/* before: left*/
+	flex-direction: column;
+	text-align: left;
+	/* before: left*/
+	padding: 0 10px;
+
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+/* for figma / case deck links at the end */
+.blog .entry .entry-buttons {
+	width:50%;
+	text-align: center;
+	width: 300px;
+	border-radius: 5px;
+	background: #fff;
+	border: 2px solid #177add;
+	color: #177add;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Amiko", sans-serif;
+	font-weight: 300px;
+	letter-spacing: 0px;
+	margin:auto;
+}
+
+.blog .entry .entry-buttons:hover {
+	color: #ffffff;
+	background: #177add;
+	transition: 0.3s;
+}
+
+
 .blog .entry .entry-content p {
 	line-height: 35px;
 	font-size: 16px; /* originally 16px*/
