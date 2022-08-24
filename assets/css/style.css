@@ -565,11 +565,11 @@ h6 {
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
-	font-family: "Work Sans", sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	text-align:left;
 	margin-top: 140px;
-	font-size: 70px;
-	font-weight: 550;
+	font-size: 50px;
+	font-weight:500;
 	letter-spacing: 0px;
 	text-transform: none;
 	color: #177add;
@@ -593,17 +593,17 @@ h6 {
 
 #hero h3 {
 	/* font-family: "Nunito", sans-serif; */
-	max-width: 550px;
+	max-width: 500px;
 	font-family: "Inter", sans-serif;
 	text-align: left;
 	margin-top:10px;
 	margin-right:auto;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0px;
-	line-height:30px;
+	line-height:25px;
 	text-transform: none;
-	color: #a8a8a8;
+	color: #3b3b3b;
 	display: inline-block;
 
 	/* color: #1563b1; #1c87eb; #69c5cc; */
@@ -614,10 +614,10 @@ h6 {
 	width:200px; 
 	border-radius:15px;
 	background:#fff;
-	border:3px solid #177add;	
-	color: rgb(0, 0, 0);
+	border:2px solid #177add;	
+	color: #3b3b3b;
 	padding: 10px 0px 10px 0px;
-	margin-top:10px;
+	margin-top:0px;
 	text-align: center;
 	justify-content: center;
 	text-decoration: none;
@@ -1053,8 +1053,8 @@ section {
 	margin-bottom: 35px;
 	/* font-family: "Mukta", sans-serif; */
 	font-family: "Work Sans", sans-serif;
-	font-size: 35px;
-	font-weight: 600;
+	font-size: 30px;
+	font-weight: 500;
 	letter-spacing: 1px;
 	width: 80%;
 	color: #177add;
