@@ -2545,6 +2545,13 @@ section {
 	width:25%;
 	margin-left:auto;
 	margin-right:auto;
+	border:clear 1px solid;
+}
+.blog .entry .case-details2 {
+	width: 140%;
+	margin-left: auto;
+	margin-right: auto;
+	border: gray 1px solid;
 }
 
 .blog .entry .case-details h2 {
