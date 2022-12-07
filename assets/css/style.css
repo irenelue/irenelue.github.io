@@ -2593,7 +2593,7 @@ section {
 }
 
 .blog .entry .case-details {
-	width:25%;
+	width:33.33%;
 	margin-left:auto;
 	margin-right:auto;
 	border:clear 1px solid;
@@ -2607,7 +2607,7 @@ section {
 
 .blog .entry .case-details h2 {
 	font-family: 'Amiko', sans-serif;
-	font-size: 2.3vh;
+	font-size: 2.5vh;
 	font-weight: 800;
 	letter-spacing: 0.5px;
 	margin-bottom: 15px;
@@ -2619,10 +2619,10 @@ section {
 	color: #999999;
 	font-family: 'Inter', sans-serif;
 	font-size: 0.8em;
-	line-height: 28px;
+	line-height: 25px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
-	width:25%;
+	width:33.33%;
 	margin-left: auto;
 	margin-right: auto;
 }
