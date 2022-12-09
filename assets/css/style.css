@@ -662,20 +662,20 @@ input[type=password] {
 /* submit button for password protected page */
 input[type=submit] {
 	width: 200px;
-		border-radius: 5px;
-		background: #fff;
-		border: 2px solid #177add;
-		color: #177add;
-		padding: 10px 0px 10px 0px;
-		margin-top: 0px;
-		text-align: center;
-		justify-content: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 16px;
-		font-family: 'Mukta', sans-serif;
-		font-weight: 400;
-		letter-spacing: 0.5px;
+	border-radius: 5px;
+	background: #fff;
+	border: 2px solid #177add;
+	color: #177add;
+	padding: 10px 0px 10px 0px;
+	margin-top: 0px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
 }
 
 input:hover[type=submit] {
