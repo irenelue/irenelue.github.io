@@ -5,7 +5,7 @@ const btn = document.querySelector("button");
 
 function passcheck() {
     if (document.getElementById('pass1').value != password) {
-        alert('Whoops! Incorrect password. Please try again or contact me for assistance.');
+        alert('Whoops! Incorrect password. Please try again.');
         return false;
     }
 
