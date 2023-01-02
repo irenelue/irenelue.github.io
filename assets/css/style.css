@@ -2588,7 +2588,7 @@ section {
 	padding: 0;
 	margin: 20px 0 10% 0%;
 	color: #999999;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	letter-spacing: 0.5px;
 	line-height: 30px;
 }
@@ -2618,7 +2618,7 @@ section {
 
 .blog .entry .case-details p {
 	color: #999999;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Work Sans', sans-serif; /* Inter */
 	font-size: 0.8em;
 	line-height: 25px;
 	font-weight: 400;
@@ -2747,8 +2747,8 @@ section {
 
 .blog .entry .entry-content p {
 	line-height: 35px;
-	font-size: 16px; /* originally 16px*/
-	font-family: 'Inter', sans-serif;
+	font-size: 16px; /* originally 16px*/ 
+	font-family: 'Work Sans', sans-serif; /* Inter */
 	letter-spacing: 0.5px;
 	color: #999999;
 	/* color:#a0a0a0; */
@@ -2762,7 +2762,7 @@ section {
 	line-height: 35px;
 	font-size: 16px;
 	/* originally 16px*/
-	font-family: 'Inter', sans-serif;
+	font-family: 'Work Sans', sans-serif; /* Inter */
 	letter-spacing: 0.5px;
 	color: #a0a0a0;
 	/* color:#a0a0a0; */
@@ -3219,7 +3219,7 @@ body {
 }
 
 .section-container .columns.content .content-container h5 {
-	font-family: "Inter", sans-serif;
+	font-family: "Work Sans", sans-serif; /* Inter */
 	font-weight: 600;
 	line-height:35px;
 	font-size: 20px;
@@ -3227,7 +3227,7 @@ body {
 }
 
 .section-container2 .columns.content .content-container h5 {
-	font-family: "Inter", sans-serif;
+	font-family: "Work Sans", sans-serif; /* Inter */
 	font-weight: 600;
 	line-height: 35px;
 	font-size: 20px;
@@ -3238,7 +3238,7 @@ body {
 }
 
 .section-container .columns.content .content-container p {
-	font-family: "Inter", sans-serif;
+	font-family: "Work Sans", sans-serif; /* Inter */
 	font-weight: 400;
 	font-size: 16px;
 	margin-bottom: 20px;
@@ -3247,7 +3247,8 @@ body {
 }
 
 .section-container2 .columns.content .content-container p {
-	font-family: "Inter", sans-serif;
+	font-family: "Work Sans", sans-serif;
+		/* Inter */
 	font-weight: 400;
 	font-size: 16px;
 	padding-top:15px;
