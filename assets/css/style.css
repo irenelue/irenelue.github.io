@@ -556,7 +556,7 @@ h6 {
 	flex-direction: column;
 	text-align: left; /* before: left*/
 	padding: 0 10px;
-	width:90%;
+	width:85%;
 	margin: 0 auto;
 }
 
@@ -610,12 +610,13 @@ h6 {
 
 #hero .button-box {
 	width:200px; 
-	border-radius:5px;
+	border-radius:10px;
 	background:#fff;
 	border:2px solid #177add;	
 	color: #177add;
 	padding: 10px 0px 10px 0px;
 	margin-top:0px;
+	margin-bottom:8px;
 	text-align: center;
 	justify-content: center;
 	text-decoration: none;
@@ -1684,7 +1685,7 @@ section {
 	left: 0%;
 	width: 100%;
 	height: 100%;
-	background: #ffffff;
+	background: #00000077;
 	/* portfolio img hover 3587da #00000073; */
 	display: flex;
 	flex-direction: column;
@@ -1790,7 +1791,7 @@ section {
 	text-align: center;
 	letter-spacing:1px;
 	font-weight: 550;
-	color: #177add;
+	color: #fff;
 
 }
 
