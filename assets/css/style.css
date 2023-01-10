@@ -2627,6 +2627,16 @@ section {
 	color:#0E1126; 
 }
 
+.blog .entry .case-details2 h2 {
+	font-family: 'Amiko', sans-serif;
+	font-size: 2.5vh;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	letter-spacing: 0.3px;
+	color: #0E1126;
+}
+
 .blog .entry .case-details p {
 	color: #999999;
 	font-family: 'Work Sans', sans-serif; /* Inter */
@@ -2634,7 +2644,7 @@ section {
 	line-height: 25px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
-	width:33.33%;
+
 	margin-left: auto;
 	margin-right: auto;
 }
