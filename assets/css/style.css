@@ -624,7 +624,7 @@ h6 {
 	justify-content: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: 'Mukta', sans-serif;
 	font-weight:400;
 	letter-spacing:0.3px;
@@ -1138,8 +1138,8 @@ section {
 }
 
 .about-paragraph2 {
-	font-family: "Montserrat", sans-serif;
-	font-size: 15px;
+	font-family: "Mukta", sans-serif;
+	font-size: 16px;
 	line-height: 30px;
 	padding-bottom: 15px;
 	color: #999999;
@@ -1350,8 +1350,8 @@ section {
 	max-height: 30%;
 	margin-top: 5px;
 	text-align: left;
-	font-size: 0.75vw;
-	font-family: "Montserrat", sans-serif;
+	font-size: 0.8vw;
+	font-family: "Mukta", sans-serif;
 	font-weight: lighter;
 	line-height: 1.5vw;
 	letter-spacing: 0.3px;
@@ -1789,15 +1789,16 @@ section {
 
 .portfolio .image_title {
 	max-width:100%;
-	font-size:1.3vw;
+	font-size:1.8vw;
 	font-family: 'Mukta', sans-serif;
+	/* font-family: 'Permanent Marker', cursive; */
 	margin-top:25px;
 	margin-bottom:0px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	letter-spacing:1px;
-	font-weight: 500;
+	letter-spacing:0.3px;
+	font-weight: 700;
 	color: #fff;
 
 }
@@ -1805,11 +1806,11 @@ section {
 .portfolio h1 {
 	color: #999;
 		/* 0F1126 */
-		font-size: 15px;
-		font-family: "Montserrat", sans-serif;
+		font-size: 16px;
+		font-family: "Mukta", sans-serif;
 		border: white solid 1px;
 		margin-top: 0px;
-		margin-bottom: 35px;
+		margin-bottom: 40px;
 		font-weight: 300;
 }
 
@@ -1856,15 +1857,15 @@ section {
 }
 
 .portfolio .image_description {
-	font-size: 1vw;
+	font-size: 0.8vw;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	width:90%;
-	font-family: "Mukta", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #fff; /*c3c3c3*/
 	margin-top: 3px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight:300;
 }
 
@@ -2577,11 +2578,11 @@ section {
 
 .blog .entry h1 {
 	color: #999; /* 0F1126 */
-	font-size:15px;
-	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+	font-family: "Mukta", sans-serif;
 	border: white solid 1px;
 	margin-top: 0px;
-	margin-bottom:35px;
+	margin-bottom:40px;
 	font-weight:300;
 }
 
@@ -2669,8 +2670,8 @@ section {
 
 .blog .entry .case-details p {
 	color: #999999;
-	font-family: 'Montserrat', sans-serif; /* Inter */
-	font-size: 0.8em;
+	font-family: 'Mukta', sans-serif; /* Inter */
+	font-size: 0.9em;
 	line-height: 25px;
 	font-weight: 300;
 	letter-spacing: 0.3px;
