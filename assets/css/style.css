@@ -2786,7 +2786,7 @@ section {
 .blog .entry .entry-buttons {
 	width:50%;
 	text-align: center;
-	width: 300px;
+	width: 250px;
 	border-radius: 5px;
 	background: #fff;
 	border: 2px solid #F2CC5C;
@@ -2812,8 +2812,8 @@ section {
 
 .blog .entry .entry-content p {
 	line-height: 30px;
-	font-size: 15px; /* originally 16px*/ 
-	font-family: 'Work Sans', sans-serif; /* Inter */
+	font-size: 16px; /* originally 16px*/ 
+	font-family: 'Mukta', sans-serif; /* Work Sans */
 	letter-spacing: 0.3px;
 	color: #999999;
 	/* color:#a0a0a0; */
