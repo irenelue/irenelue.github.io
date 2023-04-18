@@ -2811,13 +2811,13 @@ section {
 
 
 .blog .entry .entry-content p {
-	line-height: 35px;
-	font-size: 16px; /* originally 16px*/ 
+	line-height: 30px;
+	font-size: 15px; /* originally 16px*/ 
 	font-family: 'Work Sans', sans-serif; /* Inter */
-	letter-spacing: 0.5px;
+	letter-spacing: 0.3px;
 	color: #999999;
 	/* color:#a0a0a0; */
-	font-weight:400;
+	font-weight:300;
 	width:100%;
 	margin:auto;
 	margin-bottom:0px;
@@ -2885,12 +2885,12 @@ section {
 
 .blog .entry .entry-content h3 {
 	font-family:"Amiko", sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 0px;
 	margin-bottom:25px;
 	font-weight: 700;
-	font-style:italic;
-	letter-spacing:0.5px;
+	/* font-style:italic; */
+	letter-spacing:0.3px;
 	color: #0E1126;
 	width: 100%;
 	margin-right: auto;
