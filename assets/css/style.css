@@ -159,7 +159,7 @@ h6 {
 	right: 15px;
 	bottom: 15px;
 	z-index: 996;
-	background: #ffff;
+	background: #ffffff00;
 	width: 35px;
 	height: 35px;
 	border-radius: 50px;
@@ -173,7 +173,7 @@ h6 {
 }
 
 .back-to-top:hover {
-	background: #00000026;
+	background: #00000027;
 	color: rgb(156, 34, 34);
 }
 
@@ -2627,7 +2627,7 @@ section {
 	padding: 0;
 	margin: 20px 0 20px 0;
 	color: #0E1126;
-	font-family: "Work Sans", sans-serif;
+	font-family: "Mukta", sans-serif;
 	letter-spacing:0.5px;
 	line-height:30px;
 }
@@ -2809,6 +2809,32 @@ section {
 	transition: 0.3s;
 }
 
+
+.blog .entry .entry-buttons2 {
+	width: 50%;
+	text-align: center;
+	width: 250px;
+	border-radius: 5px;
+	background: #fff;
+	border: 2px solid #177add;
+	color: #177add;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	font-family: "Amiko", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	margin: auto;
+}
+
+.blog .entry .entry-buttons2:hover {
+	color: #ffffff;
+	background: #177add;
+	transition: 0.3s;
+}
 
 .blog .entry .entry-content p {
 	line-height: 30px;
