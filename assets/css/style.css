@@ -2949,13 +2949,14 @@ section {
 
 .blog .entry .entry-content blockquote p {
 	color: #0E1126;
-	width:80%;
-	margin-left:10%;
+	width:60%;
 	line-height: 2;
 	margin-bottom: 0;
 	font-style: italic;
-	font-weight: 500;
-	font-size: 18px;
+	font-weight: 300;
+	font-size: 17px;
+	margin:auto;;
+
 }
 
 .blog .entry .entry-content blockquote::after {
