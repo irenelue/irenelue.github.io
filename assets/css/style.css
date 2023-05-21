@@ -2836,6 +2836,32 @@ section {
 	transition: 0.3s;
 }
 
+.blog .entry .entry-buttons3 {
+	width: 50%;
+	text-align: center;
+	width: 250px;
+	border-radius: 5px;
+	background: #fff;
+	border: 2px solid #346BF3;
+	color: #346BF3;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	font-family: "Amiko", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	margin: auto;
+}
+
+.blog .entry .entry-buttons3:hover {
+	color: #ffffff;
+	background: #346BF3;
+	transition: 0.3s;
+}
+
 .blog .entry .entry-content p {
 	line-height: 30px;
 	font-size: 16px; /* originally 16px*/ 
