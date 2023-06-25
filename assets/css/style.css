@@ -566,15 +566,16 @@ h6 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
 	/* font-family: 'Work Sans', sans-serif; */
-	font-family: 'Permanent Marker', cursive; 
+	font-family: -apple-system, system-ui, BlinkMacSystemFont;
+	letter-spacing:0px;
+	/* font-family: 'Permanent Marker', cursive;  */
 	text-align:left;
 	margin-top: 140px;
 	margin-bottom:10px;
-	font-size: 6vw;
-	font-weight:650;
-	letter-spacing: 0px;
+	font-size: 5vw;
+	font-weight:700;
 	text-transform: none;
-	color: #5abad5;/* 177add; 57cdd4 57ced4ae*/
+	color: #55b0d7;/* 5abad5 177add; 57cdd4 57ced4ae*/
 	display:inline-block;
 	padding-top:100px;
 	/* color: #1563b1; #1c87eb; #69c5cc; */
@@ -615,8 +616,8 @@ h6 {
 	width:200px; 
 	border-radius:10px;
 	background:white;
-	border:1.4px solid #5abad5; /*177add; 57ced4ae	0E1126*/
-	color: #5abad5;
+	border:1.4px solid #55b0d7; /*  5abad5 177add; 57ced4ae	0E1126*/
+	color: #55b0d7; /* 5abad5 */
 	padding: 10px 0px 10px 0px;
 	margin-top:10px;
 	margin-bottom:8px;
@@ -635,7 +636,7 @@ h6 {
 	color: white;
 	border: 1.5px solid white;
 			/*177add; 57ced4ae	0E1126*/
-	background: #5abad5;
+	background: #55b0d7; /* 5abad5 */
 	transition: 0.3s;
 }
 
@@ -1106,13 +1107,13 @@ section {
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 35px;
-	font-family: 'Permanent Marker', cursive;
-	/* font-family: "Amiko", sans-serif; */
-	font-size: 40px;
-	font-weight: 800;
-	letter-spacing: 1px;
-	width: 80%;
-	color: #0F1126; /*#177add; #1fc5e3; #58bc6a; */
+	/* font-family: -apple-system, system-ui, BlinkMacSystemFont; */
+	/* font-family: 'Permanent Marker', cursive; */
+	font-family: "Amiko", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #55b0d7; /*#177add; #1fc5e3; #58bc6a; */
 }
 
 .about-subtitle {
@@ -1157,7 +1158,7 @@ section {
 }
 
 .about-link:hover {
-	color: #5abad5;
+	color: #55b0d7; /* 5abad5 */
 }
 
 .about-link2 {
@@ -2657,10 +2658,14 @@ section {
 	border:clear 1px solid;
 }
 .blog .entry .case-details2 {
-	width: 140%;
+	width: 33.33%;
 	margin-left: auto;
 	margin-right: auto;
-	border: gray 1px solid;
+	border: clear 1px solid;
+/* 	width: 140%;
+	margin-left: auto;
+	margin-right: auto;
+	border: gray 1px solid; */
 }
 
 .blog .entry .case-details h2 {
@@ -2670,16 +2675,28 @@ section {
 	letter-spacing: 0.5px;
 	margin-bottom: 15px;
 	letter-spacing: 0.3px;
-	color:#0E1126; 
+	color:#0E1126; /* #0E1126 */ 
 }
 
-.blog .entry .case-details2 h2 {
+.blog .entry .case-details h3 {
 	font-family: 'Amiko', sans-serif;
-	font-size: 2.5vh;
+	font-size: 15px;
 	font-weight: 800;
 	letter-spacing: 0.5px;
 	margin-bottom: 15px;
 	letter-spacing: 0.3px;
+	color: #55b0d7;
+	/* #0E1126 */
+}
+
+.blog .entry .case-details2 h2 {
+	font-family: 'Amiko', sans-serif;
+	font-size: 15px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	letter-spacing: 0.3px;
+	/* #0E1126 */
 	color: #0E1126;
 }
 
@@ -3487,7 +3504,7 @@ body {
 .footer {
 	padding-top: 11rem;
 	padding-bottom: 8rem;
-	background-color: #5abad5; /* yellow - ffc800 f0c733   aqua - #5abad5 3dbdc4 27c8d0 57cdd4*/ 
+	background-color: #55b0d7; /* yellow - ffc800 f0c733   aqua - #5abad5 3dbdc4 27c8d0 57cdd4*/ 
 	color: #fff;
 }
 
