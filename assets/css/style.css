@@ -1357,7 +1357,8 @@ section {
 	transform: translate(-50%, -50%);
 }
 .books-list {
-	width:70%;
+	width:80%;
+	display: block;
 	max-height: 30%;
 	margin-top: 5px;
 	text-align: left;
@@ -1370,8 +1371,9 @@ section {
 	color: #7b7b7b;
 	position: absolute;
 	top: 45%;
-	left:7.4vw;
+	left:8.7vw;
 	transform: translate(-50%, -50%);
+	border: clear 1px solid;
 }
 
 @media screen and (max-width: 540px) {
