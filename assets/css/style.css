@@ -596,7 +596,7 @@ h6 {
 
 #hero h3 {
 	/* font-family: "Nunito", sans-serif; */
-	max-width: 500px;
+	max-width: 50%;
 	font-family: 'Mukta', sans-serif;
 	text-align: left;
 	margin-top:15px;
