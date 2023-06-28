@@ -565,14 +565,14 @@ h6 {
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
+	font-family: "Amiko", sans-serif;
 	/* font-family: 'Work Sans', sans-serif; */
-	font-family: -apple-system, system-ui, BlinkMacSystemFont;
-	letter-spacing:0px;
+	/* font-family: -apple-system, system-ui, BlinkMacSystemFont; */
 	/* font-family: 'Permanent Marker', cursive;  */
 	text-align:left;
-	margin-top: 140px;
+	margin-top: 80px;
 	margin-bottom:10px;
-	font-size: 5vw;
+	font-size: 6vw;
 	font-weight:700;
 	text-transform: none;
 	color: #55b0d7;/* 5abad5 177add; 57cdd4 57ced4ae*/
@@ -596,7 +596,7 @@ h6 {
 
 #hero h3 {
 	/* font-family: "Nunito", sans-serif; */
-	max-width: 50%;
+	max-width: 35vw;
 	font-family: 'Mukta', sans-serif;
 	text-align: left;
 	margin-top:15px;
