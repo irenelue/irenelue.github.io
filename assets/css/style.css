@@ -606,7 +606,7 @@ h6 {
 	letter-spacing: 0.3px;
 	line-height:25px;
 	text-transform: none;
-	color: #999;
+	color: #999; /* #374151 */
 	display: inline-block;
 
 	/* color: #1563b1; #1c87eb; #69c5cc; */
