@@ -509,7 +509,7 @@ h6 {
 #hero {
 	width: 100%;
 	height: 650px;
-	margin-top:30px;
+	margin-top:2vw;
 
 	/* this is to add a gradient or darker opacity to background image */
 	background: linear-gradient(rgba(77, 189, 189, 0), rgba(0, 0, 0, 0)),
@@ -574,7 +574,7 @@ h6 {
 	text-align:left;
 	margin-top: 100px;
 	margin-bottom:10px;
-	font-size: 6vw;
+	font-size: 4.5vw;
 	font-weight:700;
 	text-transform: none;
 	color: #55b0d7;/* 5abad5 177add; 57cdd4 57ced4ae*/
