@@ -508,14 +508,14 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
 	width: 100%;
-	height: 50vh;
+	height: 100vw;
 	/* this is to add a gradient or darker opacity to background image */
 	background: linear-gradient(rgba(77, 189, 189, 0), rgba(0, 0, 0, 0)),
 		url("../img/hero-bg.jpg") top center;
-	background-size: cover;
+	background-size: cover; 
 	position: relative;
 }
-
+     
 #hero:before {
 	content: "";
 	background: rgb(255, 255, 255); /* bg color for welcome section*/
@@ -556,8 +556,8 @@ h6 {
 	align-items: left; /* before: left*/
 	flex-direction: column;
 	text-align: left; /* before: left*/
-	padding: 0 10px;
-	width:85%;
+	padding: 0 0px;
+	width:90%;
 	margin: 0 auto;
 }
 
@@ -596,7 +596,7 @@ h6 {
 
 #hero h3 {
 	/* font-family: "Nunito", sans-serif; */
-	max-width: 100%;
+	width: 35vw;
 	font-family: 'Mukta', sans-serif;
 	text-align: left;
 	margin-top:15px;
@@ -613,7 +613,7 @@ h6 {
 }
 
 #hero .button-box {
-	width:200px; 
+	width:15vw;
 	border-radius:10px;
 	background:white;
 	border:1.4px solid #55b0d7; /*  5abad5 177add; 57ced4ae	0E1126*/
@@ -2315,7 +2315,7 @@ section {
 /* added for profile picture positioning */
 .team .member .prof-pic {
 	float: left;
-	width: 320px;
+	width: 50vw;
 	height: auto;
 	top: 0px;
 	right: 100px;
