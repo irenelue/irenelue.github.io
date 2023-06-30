@@ -1806,7 +1806,7 @@ section {
 
 .portfolio .image_title {
 	max-width:100%;
-	font-size:2vw;
+	font-size:1.5vw;
 	font-family: 'Amiko', sans-serif;
 	/* font-family: 'Permanent Marker', cursive; */
 	margin-top:25px;
@@ -1882,9 +1882,24 @@ section {
 	width:90%;
 	font-family: "Mukta", sans-serif;
 	color: #fff; /*c3c3c3*/
-	margin-top: 3px;
+	margin-top: 10px;
 	letter-spacing: 1px;
 	font-weight:300;
+}
+
+.portfolio .image_description2 {
+	font-size: 0.8vw;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+	font-family: "Mukta", sans-serif;
+	font-weight: 300;
+	color: #fff;
+	/*c3c3c3*/
+	margin-top: 5px;
+	letter-spacing: 1px;
+	font-weight: 300;
 }
 
 /* end */
