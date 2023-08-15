@@ -2003,6 +2003,32 @@ section {
 	padding-top: 0px;
 }
 
+.portfolio-details h4 {
+	font-family: "Amiko", sans-serif;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	/* font-style:italic; */
+	letter-spacing: 0.3px;
+	color: #0E1126;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.portfolio-details h5 {
+	font-family: "Amiko", sans-serif;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	/* font-style:italic; */
+	color: #999;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 /* image slider/slideshow on autoplay */
 .portfolio-details .portfolio-details-slider img {
@@ -3011,6 +3037,7 @@ section {
 	margin-right: auto;
 	margin-left:auto;
 }
+
 
 .blog .entry .entry-content result-title {
 /* 	float:right;
