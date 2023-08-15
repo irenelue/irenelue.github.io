@@ -1142,8 +1142,8 @@ section {
 }
 
 .about-paragraph2 {
-	font-family: "Mukta", sans-serif;
-	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
 	line-height: 30px;
 	padding-bottom: 15px;
 	color: #999999;
@@ -2612,8 +2612,8 @@ section {
 
 .blog .entry h1 {
 	color: #999; /* 0F1126 */
-	font-size:16px;
-	font-family: "Mukta", sans-serif;
+	font-size:15px;
+	font-family: "Roboto", sans-serif;
 	border: white solid 1px;
 	margin-top: 0px;
 	margin-bottom:40px;
