@@ -2020,11 +2020,14 @@ section {
 .portfolio-details h5 {
 	font-family: "Amiko", sans-serif;
 	font-size: 14px;
+	text-transform:uppercase;
+	font-style:italic;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	font-weight: 300;
+	font-weight: 700;
+	letter-spacing:0.3px;
 	/* font-style:italic; */
-	color: #999;
+	color: #0e11267c;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
