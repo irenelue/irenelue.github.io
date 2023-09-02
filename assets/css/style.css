@@ -567,14 +567,14 @@ h6 {
 #hero h1 {
 	/* font-family: "Nunito", sans-serif; */
 	width: 100%;
-	font-family: "Amiko", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	/* font-family: 'Work Sans', sans-serif; */
 	/* font-family: -apple-system, system-ui, BlinkMacSystemFont; */
 	/* font-family: 'Permanent Marker', cursive;  */
 	text-align:left;
 	margin-top: 100px;
 	margin-bottom:10px;
-	font-size: 4.5vw;
+	font-size: 4.9vw;
 	font-weight:700;
 	text-transform: none;
 	color: #55b0d7;/* 5abad5 177add; 57cdd4 57ced4ae*/
@@ -584,7 +584,7 @@ h6 {
 }
 
 #hero h2 {
-	max-width: 500px;
+	max-width: 6vw;
 	font-family: "Inter", serif; /* home page description font */
 	color: #a0a0a0;
 	text-align: center;
@@ -598,16 +598,16 @@ h6 {
 
 #hero h3 {
 	/* font-family: "Nunito", sans-serif; */
-	width: 35vw;
-	font-family: 'Mukta', sans-serif;
+	width: 37vw;
+	font-family: 'Work Sans', sans-serif;
 	text-align: left;
 	margin-top:10px;
-	margin-bottom:0px;
+	margin-bottom:20px;
 	margin-right:auto;
-	font-size: 12pt;
+	font-size: 1.1vw;
 	font-weight: 350;
 	letter-spacing: 0.3px;
-	line-height:25px;
+	line-height:1.8vw;
 	text-transform: none;
 	color: #999; /* #374151 */
 	display: inline-block;
@@ -628,10 +628,10 @@ h6 {
 	justify-content: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 15px;
-	font-family: 'Mukta', sans-serif;
+	font-size: 13px;
+	font-family: 'Work Sans', sans-serif;
 	font-weight:400;
-	letter-spacing:0.3px;
+	letter-spacing:0px;
 }
 
 
@@ -1687,6 +1687,23 @@ section {
 	width: 100%;
 }
 
+.portfolio .zoom {
+	/* background-color: green; */
+	transition: transform .3s;
+	/* Animation */
+	position: absolute;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.portfolio .zoom:hover {
+	transform: scale(1.03);
+	/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .portfolio .image_overlay {
 	position: absolute;
 	top: 0;
@@ -1821,6 +1838,7 @@ section {
 
 }
 
+
 .portfolio h1 {
 	color: #999;
 		/* 0F1126 */
@@ -1841,6 +1859,33 @@ section {
 	font-weight: 500;
 	color: #ffffff;
 	margin-top: 25px;
+}
+
+.portfolio .case_title {
+	font-size: 1.7vw;
+	font-family: "Work Sans", sans-serif;
+	text-align: left;
+	font-weight: 600;
+	letter-spacing: 0.1px;
+	color: #0e1126d5;
+	padding-bottom:0px;
+	padding-top: 20px;
+	border:white 1px solid;
+	width:100%;
+}
+
+.portfolio .case_descrip {
+	font-size: 1vw;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	font-family: "Work Sans", sans-serif;
+	color: #0e11268d;
+	/*c3c3c3*/
+	margin-top: 5px;
+	letter-spacing: 0.1px;
+	font-weight: 400;
 }
 
 /* for about me, instagram pics hover text */
