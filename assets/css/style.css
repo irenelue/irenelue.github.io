@@ -1140,7 +1140,7 @@ section {
 	font-size: 15px;
 	line-height: 30px;
 	padding-bottom: 15px;
-	color: #999999;
+	color: #6a6a6a;
 	max-width: 100%;
 	height: auto;
 	font-weight:300;
@@ -1150,7 +1150,8 @@ section {
 .about-link {
 	/* margin-top: 20px; */
 	font-weight: 300;
-	color: #83909f9c;
+	/* color: #83909f9c;  */
+	color: #6a6a6a;
 	transition: 0.2s;
 }
 
@@ -1870,13 +1871,13 @@ section {
 }
 
 .portfolio .case_descrip {
-	font-size: 15px;
+	font-size: 12px;
 	justify-content: center;
 	align-items: center;
 	text-align: left;
 	width: 100%;
 	font-family: "Work Sans", sans-serif;
-	color: #999999;
+	color: #6a6a6a;
 	/*c3c3c3*/
 	margin-top: 5px;
 	letter-spacing: 0.3px;
