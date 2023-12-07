@@ -3018,7 +3018,19 @@ section {
 	margin-bottom: 0px;
 }
 
-
+.blog .entry .entry-content ul {
+	line-height: 30px;
+	font-size: 15px;
+	/* originally 16px*/
+	font-family: 'Roboto', sans-serif;
+	/* Inter */
+	color: #6a6a6a;
+	/* color:#a0a0a0; */
+	font-weight: 300;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0px;
+}
 
 
 /* proj details (i.e. role, duration, etc.) */ 
