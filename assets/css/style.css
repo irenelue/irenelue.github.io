@@ -1151,12 +1151,12 @@ section {
 	/* margin-top: 20px; */
 	font-weight: 300;
 	/* color: #83909f9c;  */
-	color: #6a6a6a;
+	color: #55b0d7;
 	transition: 0.2s;
 }
 
 .about-link:hover {
-	color: #55b0d7; /* 5abad5 */
+	color: #55b0d7aa; /* 5abad5 */
 }
 
 .about-link2 {
